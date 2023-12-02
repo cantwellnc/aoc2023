@@ -1,0 +1,1348 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:54364 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8024 (form-init9088550177746727539.clj:8).
+; java.base/java.lang.String cannot be cast to java.base/java.lang.Character
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8026 (form-init9088550177746727539.clj:8).
+; java.base/java.lang.String cannot be cast to java.base/java.lang.Character
+clj꞉aoc2023.core꞉> 
+(30 8)
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:9:1).
+; Unable to resolve symbol: sum in this context
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3578).
+; Cannot cast clojure.lang.LazySeq to java.lang.Number
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3578).
+; Cannot cast clojure.lang.LazySeq to java.lang.Number
+clj꞉aoc2023.core꞉> 
+38
+clj꞉aoc2023.core꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; ~/programs/julia_cheatsheet.txt (No such file or directory)
+clj꞉aoc2023.core꞉> 
+"nqninenmvnpsz874\n8twofpmpxkvvdnpdnlpkhseven4ncgkb\nsix8shdkdcdgseven8xczqrnnmthreecckfive\nqlcnz54dd75nine7jfnlfgz\n7vrdhggdkqbnltlgpkkvsdxn2mfpghkntzrhtjgtxr\ncdhmktwo6kjqbprvfour8\nninekkvkeight9three\nms9five71lrfpqxqlbj\n9five9sevenldshqfgcnq\n1one4seven\n7qtg3jmnd1two2\n2c7four8one\nqdkneight6zqcrgxxnkjdbb\ntwofourjqnpv4lgvzjzgnn\npgmmmcvcrmxsevenfour1three1threexx\nnbcmmrx7eight923\n5eightr9threemmdtp\nninedbrone2\nonethreesixtwozkqbmsixfivefour5\n68eightkznineonethree2pdrgrx\n9four2pjdxgbsxddpkfqjqrtzt\ndbtrsnscpztworfgdjrctwo2one9\n2gssvcnnsmlsixthree7onedmdpnjh6\nxkpd23four1seven8six\nldz638mfpnclztdjkns\nhrjtvdtb9ninedhzxdsskd\nnhpscgrrtqdsixfive9f9\nsixkzqqznmmcqqxninepdqbf8nine\n1six52six1\n6frronepkgmsjgtzlbcveight\nthreejctzbkxbone7six\n1fiverqvpjvdbzfjhjzpsttbglqtfvcqpbcgpkvkn\nvjfd8ninekt9qjr\n16fivefivesixtsmpkzv9\nffxcxcm5qrkgxnmkgxnmhzkrssjtjrmnvltsfmh\n6fourvkxzlxfjqcxv\nsixjxpqjtcrtsixjtwo1\neightnine2jqnqvznkrbrmcthree6\n3tzlfqvhxdjbtlntvlfm73rnjhmznstfgqcncjbj\nfiveclspv3dlbvlp\nsevenfourck6kdqstmone\ndmqvplslvxgbd2\n2lzjmlpfccgnlqfive\ntwoone6one\neightmngshxdvnine3vjlpncmqtq\n1sttwo4\nstwone3dzjhlxg\noneninecszxmffctwo9eight\n5three5xnhgtgrmvthree6onefkxjhglr1\n88onethreenxthhbqs9ljnpbmh3\nfqbxgjsts85qp3\nnine9five8one4bff\nfour65ltqsixqmmml9\nbhjpcfzvtczhn1four\n1threet23\neight5threetwo1\n23nine1kbvgbthjnnineonetjqbflrfg8\n11qthreelvjfive1\nfiveqthreenine3sscz81jbccdnhdmz\n9tvclcptc3\nlrtlblzj2lpbgvmzgx\n8zfmctx2\none8lkseven2eightcxqvd6\n7one7hqjhkgzqzs\n3qlgq\nphkchcpdcm7jtg3rfive\nffbcrneightvhzcckq1\n3hlgrdsdsplnhpc\n1vbdxqnzrthree\nseven93six25sixnine\nfour1bxstchgzjdpxdninedpfour4\n65fivetnsseight8lcvgkkglslcjtjssxmgtvk\nfourjqgvkdkl2pxseven2ninemzqfqv\nzqmsbltpvsrzcpnn2twolzdjqmb88\n3qnzkmbltldthreesix1ffive36\nkspfzvvvfkztcs9threefoureightsixseveneight\ngh234r\nvqtrnskhkl658\n6five7mscjtxlrhc\nnsxjptfkjfsbm4fivefv\ntwo3eightmtldcxpvfourfive2\nzdbfourmchtdonefiveqpqlxn5bjhzdhz\n7lnqgone3fivehtmbj6nine\nfjkvmgvfgqbfivezdnlxmfzbdjbdvqrj2nine\nglpxlb6rq7fourone\nthree4sixjxg\nfourgqcmtqhpvnscb9rvkdhmltnkxvhmcg\ngbjqshjktddkhkdfckqfivenine471\nbltthrp2seven4rqzgklsthleightlljczbeight4\nxsmbv3nine1nine7\nhdcdsgk59eightbstcgprslsxxflcn\n2mmjhsqstdhrstwothreeonetwoh\nxpsevenfiveseven2fourthree78\n8vscrfbxdq4kqjgsbffddr\neight5xbjdqjrxs93\n3tseven\nsvninetjflvqngqp1pgvmrqvgfour\n2ggrqtnzsrsevenmfqjgd\nqznhctbxb1\nvpcpgsh9hdhvdnhkdqtzc3six7\nvbtwonebffmphmxdeighttwo6sevenrvsqjthree\nfour74\n1threeeightnsp5\nftxj99twotwo5\n9onesevenqcsjrpp\n27556sqnpjnnddn\ncffxtjssdbrdseven7\nkxdlzldpkrsffourfsnrcstllxvjnbnqnstchlvrbxpx4\n33knb\n8mkcmxctcf3\nninexzhtqsr6hnftrbbnsevensevenoneightq\nfourfour9fivetwo4\n62gmqjsvthg\ntbdkbchcmb7\n38xztpsx18xcmcdqtmg\nrrxb73six6\n2943four2onephbj\ntxknhkn8\nqkfmptsqrchbdhgr3vphrkmz\none2prbchjsskj45zmnlbrdkk\nninefive7eight633\nqjc3threefour8\n858eightsevensix\ncthvxzxxqb4tknone5xfqprdzntj\nfive8828mlmdfd\nthreechljksevenninefttmkfsxvz98\nsixsixgckqtfvmxltdjthbtnjvmpxs6nine8\neightsixnxdjg57sixmpseven\n1smpvbqkg\nrpgxfrlg3seven\nqvdseven3four7\n9nzmqq\n7nkbcglxgsixjgsbhkkr66\n54three\neight8qjmvnptn4eight\nseven5fivett77six\nkfkngbkkjsqlk6foureight\nrz17\nseveneight4493845\n9vfhnzfourfourseventxfcxg\nvzsfqhbseven9gbmshxzsixfivedhcvfjjdcmnfzbxx\n3two8three\ntwovg1ctxrm8three8kgckpfbm\nx2\n25nineeighttwoeight9fourfour\n27two583\nsixeight67fivecgbxbvrpghfzdzfkzptqlhq\neight8rltgnb8cnrnjqggl\nfbprf9twonccnkkdf98eight\nsjzsjdfv3three15kjjjdnmfivevmcxtk\nxsrfvjblk2779\nfivednpgkqjl3five\ntwolpeightgzcsix624llqdbrnnz\njmoneightsevenpzxdsbzvmcvmmh733fourfourthree\n4eight1mmtqckvnxfour\nnine4jnnqxcsdsvxqnbvzxmf\nfourvzrhx52ntqpl99fljdhmtctcptgtck\n6rvtkmtjtzqrgltqltcjnseven\nsrmkdxqdd2sevenrxht4\n2sixseven35sixseven4eightwoh\n9eightstdlrsjfndnxblsevennineeight\nngvvqcfthreeccsfxtrh65four1\n416pgvmxbnpxbnjbxdk\n11eight23onefbszr\n72rvjkszv1four4foureight\n1sixrjkqsblbmtfive223vhh\n5fdbhxrkxbhfftwotn\ncpxchdmhjbn6s3sevennine\nnine528\nninetwo623ln6qrhthcxvk\n67qlpfiveninesixh\nnine1cvzb55grhbdxrlgf13\ntqxztncjrlctfxqv7twofbfour35\n416\n4sevennnsixeight3one\nbqhpgqzppconetwotwo9jtqldmcs\n7nccq\nfive2one46rglkpeightlrqtskcxr\ncrgcgeightfive6m1sttjtqjprvdbgph\nz92lbqjcggv87fbsix3\n4fourfive2\ncdrvdqfivesixthree9qmpgzbmg69\n4zpnjx4zkgqkfxz\nm4trfc8\npndnt7\nninefour7tgmdg2two\ngffvxxzj876\nvzpqmrkxt318seven2\nlpkhnfbfrjhj7one\nkbkb6k\nvrlgtjgqzdqsxznlt2three3\nsqpnxgzqrp1dpfkm\neight24dnsk5p\n37sevenhdjfgnp9\n7qskj\n913one\n8z2tlncgccsbdqdmt\nbzpfrpt9nfz\none4tmf3eighteightdxcmjrhnsix\n4mtmzzn\n3fchqlmpshz4kx\n7tbhnbdbv\n1knflgddmtwogzjmzdvcmjz\n93873czmcfive\n7gdfskkmfzqvhcsgcfgcdsbnn7jclxnx\n652nine2ntrntwodzjnzm\ncbfvnsqlsjzvh2gcgfpbqmfndcksrzcrsdpvfour\n6mvqqz9pbfblmsixone\ntmn3oneeight515\n825fourgmcfbctnnrxsix48\n57fourpsneightnineqhqvd\n4662qgjdcpmg\nsix3eight5sixsksgxhcxthree99\nthreethreehjbghfourseven3\n1jdjzxlm8two8\n3fiveeightwomnz\nfivebfttsevenbxflcsnqnb9fiveseven3\nvbkdcnqlcj9seveneight3mcjtmlj2one\ndzrscnvpj16csxchgjvphrvnfjhxlx74nine3\neight76mxmeight51\nsmntfcjhdmr4\nsix8mtwo65sczqxjsx\nkkzb66ninecnqhzvflrjhjhprnr6seven\ntwoztzlfctwo73ctdksix5two\nfive42xds8qdxnrrfour6fncfrbfp\nsqfbbqsix6five6five88\nvvcztfjrz38fourrdxggjdj\ntwoeightthree5372five9\nnine5sixkscsn19\nfoursix29mplvnvdlfldkzcvfour\nonesixtwovrktfkqznjrbvptwo46\ndcnhsvsdgzrbkqqcsx2onemxnpm1seveneight\nnbpnspvqmkbxnff7jttxslzq5cd\n9onetvonekhsn9mbpplnttg\n4onetwotwofivefivedsvvdlrnbm6\ncprfvbcrpttwoqrptsq2\n483four\nseven32ninetwotf1threepbghpmpj\nscfrfvrdhrlzxgqvrztcxmxzntpbone3threenfxb\nslnine2five\n69\n466vczmxdndg1nb72eightwos\n7cjdrthreecqztq\n21nine1zkmonedxkcdzjbxt\n8ncgsfour1four3sftqgjzn3\nnine175xgrqdqhrk\nn2251fourjqvktskn6\ntbbffonefhrvrvbzstkn53lbgvmgvxk5\n7fsmfjvclp\n8one487sixone\n16fivetwo\nfournpzbgbm4ktfzljstvgqlxhlb\nsix1bjrpnxvsixtwo7hkcqvmzhvtx\n4dxmlvlcqvmmssgbxpkt713eight\n1qkdnjqsixqnhzrgzzninexgcqdmqnmr\nxfgctwofour9\n8smfive\nfive79\nthree5vllhhcpb\n1seveneightone1\neight9five5vvxbfbmmb4hfhg4\n7bfourzkjdlgqseight\n15oneonesevenjhrtspkdnine6\nvrlprgnm4tppcsdtbtnninegtcktsd7\nxtwone4pvdzstrzjg\n1nine6\nfjvrdrfgxjjl16threefivefqdtcgffourfour\n5sevenmpdhkqgmbkzjxgmxqnzjblxfour3xcftlvnrtm\nsixk7qzjseveng\n6b\nthree97\n3ninefmjrptbmzz8hdbhfgnsjqbdzlvpnvfourtwo\nrtwonefcfvtdblsmzjfiveninesixeight7rbnjk6\njcxzrfc4dtzjszs\nseven7nine1twoqqxmhrqhrj\nxdgbtltctonebncjcdzmgcgqkgmddx9four\n4zzpszsevenfourseventkrkclmxp5nine\n7eight278nmmk\n7ninezxqdqc\n3jfxsxtwozltwo3\nsix7tkzgnkgblsxhfkrxbhfttqninepjxfpmnhthree\n5fivegzlsblkd\nvc4kkrrnpqhvktvtvgbxxv2bqrzbfzc38seven\n9twoninefive2ffmfft3seven8\n644jjzz7\nxttlbjzonetwoldm9seventwoeightvsl\ngeightwofourtwonine6\n6six26gkj2\ncqczz1dvhthree9three28six\nfive6sevenrlqsv9ftptrx2\nnlkqjgtcrxsfgnrc7khkndqrzckdjsbncrtdhbhbd91one\nrvnmlpbjnj5lmr\nqqtwoxtwo1crtgqdd9four\nonesevenvchtfkbfkgzrhzhpsg3six\nthree3nine31tjnjphs2mnz\nninecszcvfn14eightthreedjhtxsrczjqgvpgm\nqqkgsrkhplfive61onenbpzxhm6t\nnjgbzgvddqzdz4\n9two5eighttwoggrscndllxjsqhp2s\nseven417\nskgvnd5\nfzvlthreecrlqftlqvfh7\nseven6843sixnggrpk3\nsixxdmpcbfjp1bnq\nninetgkhf3sixrnninebd\neight3eight\nrbjvzeighttxqblqcdspxxhkhzfkrlmszgblqf2nine\n986qctmpblbx\n8three1seveneightone\n9pzzxg76\n3287sevennine8frpsgpnprtj\n2bfb6nineztzlqfbz\n9one1four\nsixfgmxklczhfbkkdfournine85\nzgc1c3kclrjdb4oneightpvp\neight7threefnrggkvjd\n22fourxznjjjlfivefour\n8vvmcjcdtpnnd44\ncgdnsdnmq9lqmxdbl8five\nckfqmnine9twofour2\n36onelkmfqp12kmvone\n79qsstc6tmmdjflqftwofivedvnlmkj\nsixb2six2\n9sixkbqhfive\nxhvsst4twoxvkrjgjtzs5bxgqhvrkrl\nfoursz4\nthree6mtdhqrjgbtwosjf\nthreefourrrdfvzgngstwo783twotwo\nfmnccmdrrdtwoseven6\ntnktpgvgrgf2nine\nfivehkccqppjvbhkffour3\n8five6cksevenmqg\nfqm321six\n4twofour4\nxbeightxone5\nhnzfbzqhc8xnbssjpxnfour5\nseventwoddtnl93threetwo2\nnine36two37xxbszmhkc\nthree4xkjqrpvhvqtb\ndtln7fivejfcgrxm5fivethtnfxl\nthreeone8threethreetwo3jslhltsb\n8ninetwonnseventwoseveneightfour\nnine1rffvrkjpjdjzqnnrzqspqn\noneninefourbrqrhljnxsggpsix8\n9kkgq4nine3seven\n4fivemldkdcxkszbjbm8qnhbhsixseven1\njprktjkhp8\nthreesixsixthree4\nlrtpddd5gmcgl\nninejflqzhgkzcfour34\nsixeightvmqrgfmjrsf4jmcfqfpzxx\nqkrnqjbqpsvhc22nine9eightjx\ngvnine29sevenllzkqmg\n7one7rts8nine93\n46ninetwoztsbfgh\n6xjzrdvninesixjkhcs9\nlccxbmpplkl9fourthree7bhnssdone\neight2oneoneonenine3jpz\nsix2bsdvnhmzlmtdlbmt12eightsix\nnineone49pnkgdtfrqk\nzfivecxbmvb8dtpfhbxfour\ntjf97gbzfksdfmfzqvtjtd39four\nsix49fourlnld\n4sevenone7\n9pnznzbktseven\n5262hgdzhhjdp4three\nseven3six68six\nqfdx92four2\n2xdfrdmd13lseven4mkz3\nthreeonethreekmpstnineeighteight4eightwopt\nsix1qhcdfmqslsxphtnxnonethree\nd7rprdfbzmj\nthree8pzvgrmvq\nhgcvfttsztwo9eightwop\nmthreedhr78hxbzrzrmk7\nrfdbgxlxdccgmrlbglc9642fourthree\neight9sevensevensix8ghhjnhqqsixkzzsg\n3jvqhs\nnnrpvtqvdgst68tltjjgnine1dr\n5fmldhrxfmqfourhkfqdlsphddzqxm8seven5one\ntwo5eightcdrnjmjjdbxrptmptxntwo\n54threehnlf5\nhvgshlg2dclxlvjfsneightsix\n44two2b\n9mcbjxjknzflvcklllxnllvfourfivefnzrvqtnjx8\neight2hbknv6\nthree3sevenpgh\n3dxgrslvqxbztkkxbhxfourfive9\n972skvkskj\n6xtkqrddn6shvtnmbxfrhjnmhnine\n9four6lxlbbfiveone9\nfive6429\n6798one3sixjfive\nfxggjgckkjftwo7cqjgsz9lngfdr8six\nbtdp9sixh1\n8threejhllninezzbrdhxxgqlszhnnhfsf9\n6twofbprcrrmvmgshsx9vcmxskpngbp\n9fivefivelnnsmnine\np5zrcvkt2five\nlcjc9pfrfzfoursix2\njjklqm1eight78onefour6\n3qpjqc59eight\n69mdnmptnl1\nfive22\n2three5\nseven38nine\nfour7zvc8drlvxzjfivetwo1\n1zhgcngbx4two\n6mhvbfkkrvsevenfoureightseven3\nd7dgsix3fivesevenvnqtvgl\n3hlrt1\n2kdtzxfive33\nxzrzjrkvsfqxcrjtl23eightone\njcxxhvvddglmnqr8vxvj\ntwo5rbxsbgngcbfour\n8four56tmvqcccm1twosevenfour\nskhhxgrjh5vmvgpnqlbqvvz\n4tttnbkzjdvbgfpthtkt2xnine\ntfpdnineseven229\n5foursixone\neight89nine8fjhbnzn675\nrvzbmc4eight1bbzfjcpq\ncpj1eightsevengpvmvgjpg1\n46xdsnvbmnine9212\nrhklrcb912czkkcvbbqc\none22sevenp5\n7hmgfgmmr\n41sqhchvkz2qsrlcsmqgeightqdxlxtgkjdf\ngbtxgtrzz6fjffgvrddh\nm5threeoneonenine9\nfoureightfive3zn\n9ninek6nfqrlrmhcg3five\nsix3fqrvmrcrspsix7ptsseight\n2pqpqgppm63ccptb\nrtdsxdz53seveneightsixzbtrbbm\n8mpfnpgts75\n1one8pzcdhfive45eightgspms\n47mppvdxfmp\nnzjkpheightnine87two\n8threetwo1skqcg1two3\n4ftz7fourlzeightwodvh\nsevenzvjpfsnjgtc78two4fourone\n591zvdzpxtlgggsccrzb\nbtwonesix66seven9three17xpxp\nnine66mhbn3djhhrcgcfsseven\n4twoeight\n9five3five\n1nine7eight\nmbvrdkqtnqeightxn751threedmrd\nnine1one\neighttsffqxtq9ljshbsczj1bggsxgn\ncfivedtkkmnrzrbzxnm5\nkxzq362\nfour51kzxrhhtqc9sixfjdjfivefive\nseventwoone4seven3sixsevenfive\ntwoxrdhtdhxcvtmpv7tzr2two\nzblkqzptx93kqbrjlhdvbsdqeight\n18one68v\n2rhxdnccbnh31\nseven6dcbpgpnx\n22nine74sixzvmdbjnr7zmqgp\n7zlbjfmvb22eightpfjdcpf\n82nkckplqhmfourfourfmsixqpjdnpzht\n2onemftzcffcxl\nlqonethree464kvfnqzg\n9lsbonegzgkqhc3\nthree4twoninexc\n2qtkpmmzcvjsqsttsevenfourpgp\nrfsz9tltpgfh4ncgcmzcvkssmjl7dhlpjdr\nkfivesixfivet8six\ngppsqngmmzdt16sevenbxnxqxsevensxnkqvtggbz\nqsldvhvcnj4j1jmlcjhkdkntbrdqch\nrlxnrbns6eightvcqmqrbdeighttjssrnvf1nine\n9sevennhtslbkfourq2\n9zgfnssevenngmsx8three\n9bkkqfhjzpc7vklvrkx\nqtwoc8six8\nfcvdseven95\n4threeseven\ntwo494\ntwothree5one37sevenseven2\n4nxcnfiveeighttwoshjcqghjfx9one\nonefour9one\nfour79kzn36\n23xck5smtkrzbqdc5\n3xcthreesixmtprspzdeightfnpgvpnfourtwo\nm5ksjbcnine7\nfive1threegrgv522\n2fourfiveblxxzpgbntncpbqsxpztndx3\nst6\n3twohcpttzfcr36\nthree9zhzglqcrhtstxzrdlxkl\n3two45\n3rqcqnxhctrseven3\nkmz7cxb9llmnctbnrf77eight\nrmghxpfzpktwo1twosmhcgzd9\nlpqknxtkq84\ncknbzcl5btmlzzrbxgponecfbvj1sevenms\n3jdvpb71sn9eightngpv\n7bthreeone\nkconeight6913sevenninenine2five\neight924five1\n1onefivetwo\nxqdddcsj4\nbplrgcxfrb5twonine8threesixkfdvcfive\nnine9five7jlceightninetwo\neightqpbmgjbcsevenbfnqeight48\njt1vbsc\nklzrqpvdvnjhsevensix36\nfdt1rvr\nhhxhfivetvfvxqzjlcqdrgzlk2\n98three\n1259eight3twooneone\nthreejxnffgl35five1\n7jvbnqhtwo75sgnine\nthree31hcccbxknpgltnchp\nbtjfdjkgvhlhkzsfptsbpmbx6four1\n79sonesevengvbbbltmdmfdbp6\n4sevenseven45qmthm85\n1rcflgtmfmmllljsfxbxnfour\nssbjlfglgfcdzqs8onekrkhq6\npknfvzxgmf35\n7sqkqqbtwonine4six\nseven1ptdbrxrptn\ntgbfxzzhqfnine4\nqbfgvpkz7twotv\n8nineqnmlsrzlfgfourthree\nonesix5ptmndhpbpnftdm8rxmhrqczptfdxz\nonesixnine77fdrscvmlmhptwovjdmvlx\n34twotfiveoneone4\npstlglpjbxkjtlxn8foursixfbzfnvbzc26\nvrkdcsix4three19mnxftczrvhq\nsixjtg9two9rfourjpkzqfnqphsqpz\npgfffmgr8kxjmsixsevenmzc5\nz3\nlh2hzkdqtgznknhdczseightkbzpc7eightzbr\neightnineknhdxzst1\n615\n8tdxphfhmjtfourpljvmmsevenone\nghxsrlf6mvmhd\nonepf8gdthreetwoeightmrfpmgdngeightoneightdr\n37fbvnqxpkk1165\nstkrqtqdphrtjg7zkcnmc2fourz\nsix68sevenfive\nfive7fiverpkmcjhjhvfnjjxcmbgv\nvhkmjlfgfxtkmqmcffour4\nseventhree6twosixdjnhd1\nfournineone7\nnrxtnmfstwodspstvjxfive8rb\n5onexchcrjkbxfmzcqlsfivesevendtwonercb\nfour4two3\nfivetwolvzbjjhsone6nbnnine2hcpqhkdtc\n16four52fiveseventwo\n7pgksgsqmgeight\nbmltbvsone3onesixcgstfmfb2\ndvoneight8sevenseven\n5cgpnxxvjp8ninethree\nseventtqbmtwotwobblpcfkmnsbhhncbdxr7\nlkmlldgsthree2eightm17qfqjklpsbk\nkbhs54four137\nkljbrzflhmxnlfcfctcpkfnjtwosdk8fvzmgkrgzjfnlrzn\n4hrgzfjfourlvmps\nonexnskbm6mbkt\nthreeqgjmchthree5zzkrtxfvshdtf\nptvbq23jshqbdtbzdsmvone\n1nineeightsevenkc8sixfour\njg1foursevensixtwobpxjvgb\n4ninepbbltwo\nclcx7jktrcftjone1seven\ncpgflmrcmnpjf2\nz9mrdbeight4nine51\ngkdrkvhctthh7four\ntddgpnineksbfnxfcdg13\n8seven2xpjjrsjq2\np7hxnffff\nqnkhxznfzznr2fpqrvcczfksixjlctk\n8threenine3five9fiveone\nhslgtz3715fsseven\nqqoneightbbb9bfjxrddrdx2vcb\n1bcdhpjnsrgkgrd\nsix6kvldqqkn\n6sevenhrltpblmpk5ninedjm\nhdgpmcrdnnzlplnpone8jtlhsdncchnfrk34kspgmvmf\nseven5hcz\n739\nhgsxrddmtqfour6ninenine\neight8sixoneonenjtgtqbkj\ndoneight5595eight2lztkfhz\nrxjhxzljgtnlkclfqchrhrlrgk8jr\ntq1fzfcjrhkslknrzg\nthreethree5pkjnstfp\nnpfsgghgk6cvvxmkxzjxcnztsntonexz56ctphqtg\nfivesnc66\n1bqkdfrr95\n5ktwoninekcjxqbr9vvhtfbdqbx\nnine2four3three74\none9eight946\nsix3lv\nonexbqzeight675oneghjlps\n9vhqtxfs\nlxdxcb79\n8seventwo1vktcvfzd1pbht\n1five72fftmlknntpvtbnzrthree9zlqblplmg\n81six93seven6ninehzm\n9nine27eightthree6f9eightwosg\nczptqdjg2k2ddsvqjq7\n511jklrccx\n371\n9zghjmlfbfkdthreexvtlzcsctwonineeight\n4twofbpjxrvgjfczglrqfhseven\nfivethree72sevenfour7three\nsix9three92\nnlmzndltn2\n84sixninejtjgxq1fivelpmhhrbrm\nrzrp3three\nhxrvcmzbcvskthreeone2\nthree6dkksxdfour1j\n68fz2four2twothvq9\n4fourrp65qgvktfivemqtbbmfcx\njoneight9nine\nlvclrzbrbhtcs8eightthreetkkpcnkzlnbxsffqq4\nfivehbblpjqttlhlpj5six51nkxqnjzhreight\nfstfdzzdseightone496\nfivetwoseven678\nsix7htzlsx3ngtlthreethree\nthreefmljmlcnftsm5jnjkdrjssix\n725zvpnsztlnqlhcnnmqkz6\n816\nxmvvxkbrzj8kj2one\nfourf9six\n4fiveljxvkbr\nsqjbrkgcnfm2zztm1\nlfcxxkdgzhonethreeseven5pxjgftn\n9cmprqhj8\nfstqjs6threefourthree\nseventhree1fsix\n921\n7three18vcxksonetjxnth7sbghvghdxt\nthree4vb8\n9kxqbzxgrktwoonesgrkck\nfivefivesixseven91gbldflvdvcfvmjp\n81five76fqrxbkztgkctghrjjc\ndeightwosix5oneqmjftdjhrqknxhrnf7dlmnine\nznzbpkjtqf36\neightseven6nine7\n3jzdjbgznnscsbgnvpzm\n9xdjcclsevenfoursevenonedmflz1\n5pcqcchxsix662\nvfstwonelqlqxbxsgdczpfrshnkvsixndseven1\n93glfsdkzcnfourninemxmkzvqkl3nine\nnine72\nm2qtwo\neight72\neightz9114\n4fiveninevpp6tsmtdh\neightsix7hfivenine\nninefs7tkqgqrrmt3\nqltwone32sqshrmfglrm\n3twoxhdkhd5nine5sevensixzfvr\n4onenine\nlgtmhv41sevenrrpvxjjnvxmqpkmkqnine7two\nhdsltkbmnine93eight\nfour4eight\nfive2cgn5\n5one8\ngltnzbkpbnfournineeightdbv91frflzbqdnine\noneppzkmsmzgdmbthkqbjpqnine3ctr1ptggbzght\n6ffhfponeninejxpjftwo\nnplmsninefive4dhfhjrc4fived\n4three56flbxxntg7six2frd\n7eightsevenfivem5\n4cq1htrrt\nvzqkhqddx1kdrgppgcvfqzsbtfseven5\nsevenjd9\nfive5eightqhqrqcdzj3mzm5ddzcpg8\nnvhx8fourthree4\nxjpdjzdn5dltxnvqtkknvxsnqsmn7bzlgp7hdhbvn\nthree1258sevengchvqkqcthreejltlljlf\n852\neight98seven\n86fourone1two7dm\nfgr5rseventwo\noneglvone99threefour\n3seven5sevenvd\nccmzm5\n8ptpbgtteight7\nqrmszjb4two48brcbfrns\ntbzlcnx87five61\nfourxc1\nseven6sixfivenine\n9eight97lxkxzr\nninefivefive1ffvthlldqhm\n4nine74jrfhk9\n77trlhtdpj75\n23eightbsmxkkfiveseven\nmbkpgfzs6kjlxxtjpxpmn\nsevenlxxlgmmhlxx6fjmonefive\nfivekprhbdmffr6twosixphphrfmmj6sixeight\nthreefour5threefmsqgsconethreezqbctmvgt\neightfoursevensix74rqzsjxncfrgpvjrzb1twoneds\nsixrrmcgnonegczjdzg8one\n23seven4zhshxgcgb\n3oneonefourfourncmxrqlpjnine\nv4\nppzvseven5vdzspfzkxzqclzz17eight\nfour83cffour\n7oneeightxmxsxt\n64vsxsxtqrbtwogxf5sgmz\n2kdtvfpcfxfive\n5hxtzhmrrgeight\nthreesix46threesevenfour\nmgnine7three3fiveggdzvbcfpv\n7two7prhkcbmmmcmcmcchds1j\neight1cxbsdxcdmksslxgfqg\n2ninethreexs467\n424twoninezncdzjsg\n8onethreekfdlfsjzzxslrjrzbqzjrkztsxq\nxfmdfourz5twozs\n163threeseventhree2\ngmqrjcngnp8dpbvhk53\nseveng3zqsix3fivefmqbjmfddn\n562hjlcmsddf1ngdpcnqdd\n7twoninefourfoursixplmcdzrvkgseven\nsix4seven5zfjqtptxz6\nfngsfd2fiveone8eightthree\n3threeninethreethree\nninefour29dxrnvqckjgchrljggvkgtj\njmvprbdqdjbzb7six6fvrgh42\n3four854twothree8\n7hnfm\nlvxhprxxtvrzrkspd1fourthree\nttsvjrltffvggshsvgc2threefivevg\n34krbnqzv6ltvsevenxkqjgtlddlpkcgtt\nlzkvcnine6\n91xdpone9threeeighttwo\n1vqznbgvgmljmfgtrnbcfseven\nfour2ninekfrxthreethree2eighteight\nqslkxnljdcshx5\n8jtjrbgptgfoureightone5\nxkbninemc6bm\nsix93nine54twonenb\nthreer825mm996\nsix1two3sqhgsbgtdggbcbphvhqpzh28\npbkgmmgpm4seveneightwomqx\nszkqklg1xrmsfxbkfourhlntqsmkkmjtrbrtwo\nsevenphxrvpsp38two158\n64rtglqb67cnmdzrrvx5tqkvbgpqz\n3smjtffhhbthreefour225\nhcdjglmjdtzone7one92cmtmzp9\njj3\n3dcbjfzxplnkhhc4\nnxjzbkseven5fivelsz1\npbheightwo3\nfive5bzsdmfive3two\nninexbtdgdzbbjlgsc1three\n2eightslkrhgqfveightxjtvrkgh3\n234xgqhkkjxnlhggsix9dtlltxkfrthree\nzllsbdrrsix96xone5vhlrjcm\n433eight5fourvmn25\noneseven4sevennine5vrbeight\nmss7tqqtq\n739\nneightwo1threesixsix\neightfour3seven\none16xfsqdptggonertjlljmdfive\nkccrvbgbhxbpeightnftvldlmthreeplxjsdvr8vgfttwonepm\njxbkgpmgdgzjhxgjndtwoeightcgbcrpldzhfm5zjflmfsfs\n3ctzrzctj4eightfourfourqhhxtthxpx\nmjtsldxclctgonebhmeight2qgcskfhrxl\n59236\ncxqjgsrnndjxxjrghxqpnjrqtzct96knrtm4\nnftone8two2zh19\n9mczbptwosix\nzdbqvhnlp77zgzkxsnfzzjq8\nfivefournine7three\n4ltdk6mrpmchpzlq\nfivezxdmdqcctlpknlchdptnine9vd61\npgdxcdtcrfmknpm9zddsxnncnjrrpj5qhvntbmb\n57867\n39kqfghxs\nfivesevenggdv47tstjpjl1\n5kvzngbgvmvtwo\nrnvpnkv2threeeighttwonssnzf\nngqqbgtwoprqdnfmtntmbbrmgkrmgseven8\n9twoqczhkzcdeightwovv\n7vtjrdxfive\nhlkfp8four\n7mvhrltsixmfmfkxvpxc6twoseven\n2cpprnmhbsixzxb61\nqg8eightseven6vljxh3md\none3poneone5lknlsix\nbjtwoseven9\n7fourglfpnlfbhndmgmnfdvzmgfjxrmzgsfcknzschlvjk\nlhqfzhdccrcscgqskbmskjxndffq8ninemdzk\n8glcmfjqnv5gdgccvqthdpzshsn\ntwo2five3two4qgf\n5nineseven\n12oneightt\nsixsevenninejjgkdmsnjgzfzxf46\nfive63six31ppkvgdczbf3\n4sxxghjbmdcf8sgzsf4vfninethree\ncqmjgbkone6eightnn\nonesixonexdtsix8fourhdgbmzvp\n6l2fvjpbssvc\nxflcsglfjq93nhrrpl9eight\nbgthdvljfivecbxjn69\ntwodmzspjstfccxq2twodzlfbsq\n669six\nnbhgctdtxcllvnmgnbvlgpzzq95six2xmbqfmlqq\n1hxr\ncvsxtkldqh1jpqnctrz\n595fourfive4four\n59threesevencmckfourfour\noneseven78fivelplnpf4eighttwo\nflvqf9ssrgspj\nnined9pmdcfps5three\nfvxfrf9nineninesixtmkflzkcjfour7\ntwongmgdlcxrnvcz8mnxvl4\neightonekmzcspxone4\nchn2fxmpfourvds5rnphvp\n3eightsevenfbxzstbrpvvbfnhpdqzeightn\n9fourseven\nb35hh\nsix7twotwomrgzltfxhzpbrbb\neight2twojcbqvjbzb3\nsevenqtxlxshscrb7lhdcjkcnlkvghcgp\nthree4n18six\nthreezfqrhhhhklcxhcbdrone9\n2sevensnzthree2bktctgxm\nv66\nthreetbkmd51sevennbrmnkflmkj4eight\nfour5twockqqgrnine9dnvv6two\nrgvnfourkvcbconeninetdczskglone5\n82six3four55\nxjnjstvk66\nfour72\nfour9pdgs8twojjchqbqb36\nxgvljsgknqfvz2six2xmpvgxsjeight3\nvcrnl8fourtwo4five\nnine5gxdsrrxsqbsx77\nfourlgqzjnznnboneqr7m\nthreekvdjs63lrfdvskhk7eight\nhqthneight3oneone\ngkfzr4vpfzqnveightqqvqpvvcxsx99\ngxhtwo17fourtjkgpbhxn3five\ndmcpvjfour4\n2fhgldxrhsdlgj\nthreestseven33seven3six\nsixxlfhq2oneninenvjmp5\nfive9eight9seven79\nthreexpnbqninexmstddlcznine29\ntwo8ftmnhttjz\nninevxeightxtm28five2\nbqkntmtgkpsgkfbtdkvtnq3seven87six\n14sixeight\n6foursixfive\nmpbqcseven8seven\nthree6prbqk\nsix6lkcjbnjvhfiveqppone95\n3thvllrn\n221threesix1two\nfdlzfivexhgbbkzsbkrjgshone13\nrhztctbf3mgbj\n1seven41oneeighttwo2mqt\nct763\nnine9nine8hfgeight\n61threeseven79fkxrqqgcl\nfivesix8rgksjszlhcdqmxbhkxdvfour\nfiveg1\n2735sixninextzcxpftb\nkpnqg3four\n388zdxkjbqmrntrhtwovqjvdprtkpcdthtxx\n141qgkklqssnl1three\n6frqpmvkmhtxdhl1threethree9nine4\nsevenzxlszsk692one2\nonecjb3sixrqtkqmrjdseven8five\noneqnffive7five2lvzthreemgtf\n44threethree\nhckkcxjzhrhc2eightdqrzbtx\nnineone2threesix8pdjbzxkrbsfour\n6two4kxntrqbhsqvtxdftqqkpfbsqhbssvjjqtnine\n1twoonennknzvgjj\n5fourdpzqdtsix81\n6brvvrgntseven\nvkghzgzzrhfivenine2qbxh\nfoureight2qqdg7fourchbltsmxgnrtctpv\ntwovbzzjzqxrnrmnqnsxrlckzb2\nzoneightfive8nine2one6\ndsrcd7sxteighthgqmkbzdflhbhrgsix\n7vfvzfgznfivemhhxkgxdrd83two\n48tflgpdszf\nkxrk5ntwoeighttwo\ntwofivetwojxbtnfivethreeninesix9\n57fvgrcpm\none1cxmqqfour77one6\neightfive48\nsevenpvtclpklconedgnthreefive5\n8onesix6rvxd\nfive35six294\nsksonenine3four\neighttwo7fcpphztsnlqnf\n9eightseveneighteightmnjdscdbhm\neight3six27vjnlvmlxrzzbsjvpvkkvb\n7zqcsgbmjch\n4nine2185\n9stxd5sevensix2qbnv2\n8xqhdkkmthreesevenpk7\nnine61one6ntgmgscglv\nthree52cmppklbtfrpltp3\n48fivefivefivenfourthreeb\njlchqchqseight1grbbhgp4rxjgxlx\ncklzfour44fivejqone9\n75q1\nninejtwo5mfx6\n4mqvgrtsbfthreebffour9\nxtwone5knhdrrbv4six\nqthreethreegr9\nqknlgsvgntseven9\nninezsrkx5\n7three8\ndseven7\nbtbrjdmhzrvcx9threedmjflfbsvkvbl\nbgcfzgmrmgthreeeighttwohmzhsks89\n7tgfcvpjfour1four6twokglvsvgkk\ntwoninekd5\n549seven\none8drvtsevenknmdf9vpfggjsbbq\nnine27foursix5dqtmvntpnp5qfhhq\nseven92tlnkxssevenone\nthree5dljshpbfiveqmzvcrkt\n4threesixeightfcvjl\ngfgsd46\neight87eight318\n1tbbsmdhtwonedtt\nsixsixsix3tncpvghckn3\nonesix9threegtqgvfour5kjmlkkvgdp\nfourj4fbfjssf39sixninefive\n9eight6ltrnsr63dfjlhhmtsixtwo\n9twoxvcdpbtldsrfgtsix\nslzvnxrninesevenbfls1\nfive4twotjfsfsv\n5one58plvtm\n6twopkkjkj68gmklcbqsixsevenseven\nfive7one\nfourzxmhgf7tvqone8four\n7eightzzzphf\nxlgtkzljmbqxktwodhvdfsvnq43\nthreetwofdgctgbhk5four52two\n3three7\ngjlppxbtnb42rlqhseven\n72blljfjds\nnjvlxgphhkzoneg4sevengszqkr\n6kgplksixthree5tblnq\nrnrhsix7pfourfvslblz\n3mxztbfqpqh65eightnine2bbpeight\nsixonehgjfhqdqxc9fc\n96two\n8xvlnine7hrtnckxt\n7lzdqlrlrftzz\nknndninetdtlsdmmrthreefxph3\n6pflhvts32\n1rhjxvlxfdbhckhxtwo8\nseventjvtms36ninesfxnpfhxk\nrqftcbxkjbsbzhtxdt52\n8sfvvbtfjmv47seven5psseven\nkjeightwofive4onevlm9\nvtwonesnfshngpvfive4ttcqseven\nzpthreevf4gqcvrkdsnxthree5\n15sixlphbkgsqmpxbxjmg\nllhxfpmkhghfive7sixvbhhqg7\nnine2pdbgprkz\nqmdtwone66gcnlhtnjmfour\n9onetwoeighteight\n42five5sevenjjfbdtrdmb36\ntjj6cvhstnjfcklone\nvvgtpqlm6znvnlbd5nineninejjsphkzsix\nkconeight8xpgdhhrdtfzghrmthreefcb18six3\nsix2one4vflp\nskqgc95two\ncrzz84269sixfour\nfive758jcjqdqcgqnqbqtvk8pjxmdb\nninefn3jstbsbvfivefourthreeqs\nrrnfflfqnttgj9eighthnvmbfbtgnt\nbbtmcmlnn2sevensixxbgzbfthree\n8xzb9one3sfiveseven\n9nkhntmrll\ntpxrcthqbktwoeightonepcc4tzf26\n659nfbpb\noneone2\ntmppzkhk49nine4\n8kgplfhvtvqpfsblddnineoneighthg\n332bfjbttrmbrxjqssr6oneeight\nthreeeightfive6fxlckcsskpnd\nzeightvh9\nseventhree4seven\nbdmdqptkjzn74\nlsmcmgtflzxmszdkjmdsklrgvtcdlpx4\nxsftnb6mvgqxv17four\n7gqqvzkvzbvxghxonekqvsteight\nnineninekfp49"
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/core.clj:16:4).
+; Can't call nil, form: (nil (filter int? instr))
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+false
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val (form-init9088550177746727539.clj:20).
+; Don't know how to create ISeq from: aoc2023.core$get_calibration_val$fn__8075
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val (form-init9088550177746727539.clj:20).
+; Don't know how to create ISeq from: aoc2023.core$get_calibration_val$fn__8082
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8089$get_calibration_val__8090$fn__8091
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8089$get_calibration_val__8090$fn__8091
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8089$get_calibration_val__8090$fn__8091
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+false
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8107 (form-init9088550177746727539.clj:23).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+; Execution error (ArityException) at aoc2023.core/eval8111 (form-init9088550177746727539.clj:23).
+; Wrong number of args (3) passed to: aoc2023.core/eval8089/get-calibration-val--8090
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8089$get_calibration_val__8090$fn__8091
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8117$get_calibration_val__8118$fn__8119
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8117$get_calibration_val__8118$fn__8119
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/head
+clj꞉aoc2023.core꞉> 
+()
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/head
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8130 (form-init9088550177746727539.clj:26).
+; clojure.lang.LazySeq cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+("nqninenmvnpsz874")
+clj꞉aoc2023.core꞉> 
+"clojure.lang.LazySeq@ff36c529"
+clj꞉aoc2023.core꞉> 
+"clojure.lang.LazySeq@ff36c529"
+clj꞉aoc2023.core꞉> 
+"nqninenmvnpsz874"
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/head
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8138 (form-init9088550177746727539.clj:26).
+; java.base/java.lang.String cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+"nqninenmvnpsz874"
+clj꞉aoc2023.core꞉> 
+["n" "q" "n" "i" "n" "e" "n" "m" "v" "n" "p" "s" "z" "8" "7" "4"]
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8142 (form-init9088550177746727539.clj:26).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.String
+clj꞉aoc2023.core꞉> 
+java.lang.Character
+clj꞉aoc2023.core꞉> 
+"n"
+clj꞉aoc2023.core꞉> 
+"4"
+clj꞉aoc2023.core꞉> 
+"n"
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+; Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:65).
+; For input string: "n"
+clj꞉aoc2023.core꞉> 
+4
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7132)
+clojure.lang.Compiler/analyze (Compiler.java:6806)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7112)
+clojure.lang.Compiler/analyze (Compiler.java:6806)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7124)
+clojure.lang.Compiler/analyze (Compiler.java:6806)
+clojure.lang.Compiler/eval (Compiler.java:7198)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+clojure.lang.PersistentVector
+clj꞉aoc2023.core꞉> 
+java.lang.String
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8243$fn (form-init9088550177746727539.clj:16).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8247$fn (form-init9088550177746727539.clj:16).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+[["n" "q" "n" "i" "n" "e" "n" "m" "v" "n" "p" "s" "z" "8" "7" "4"]
+ ["8"
+  "t"
+  "w"
+  "o"
+  "f"
+  "p"
+  "m"
+  "p"
+  "x"
+  "k"
+  "v"
+  "v"
+  "d"
+  "n"
+  "p"
+  "d"
+  "n"
+  "l"
+  "p"
+  "k"
+  "h"
+  "s"
+  "e"
+  "v"
+  "e"
+  "n"
+  "4"
+  "n"
+  "c"
+  "g"
+  "k"
+  "b"]
+ ["s"
+  "i"
+  "x"
+  "8"
+  "s"
+  "h"
+  "d"
+  "k"
+  "d"
+  "c"
+  "d"
+  "g"
+  "s"
+  "e"
+  "v"
+  "e"
+  "n"
+  "8"
+  "x"
+  "c"
+  "z"
+  "q"
+  "r"
+  "n"
+  "n"
+  "m"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "c"
+  "c"
+  "k"
+  "f"
+  "i"
+  "v"
+  "e"]
+ ["q" "l" "c" "n" "z" "5" "4" "d" "d" "7" "5" "n" "i" "n" "e" "7" "j" "f" "n" "l" "f" "g" "z"]
+ ["7"
+  "v"
+  "r"
+  "d"
+  "h"
+  "g"
+  "g"
+  "d"
+  "k"
+  "q"
+  "b"
+  "n"
+  "l"
+  "t"
+  "l"
+  "g"
+  "p"
+  "k"
+  "k"
+  "v"
+  "s"
+  "d"
+  "x"
+  "n"
+  "2"
+  "m"
+  "f"
+  "p"
+  "g"
+  "h"
+  "k"
+  "n"
+  "t"
+  "z"
+  "r"
+  "h"
+  "t"
+  "j"
+  "g"
+  "t"
+  "x"
+  "r"]
+ ["c" "d" "h" "m" "k" "t" "w" "o" "6" "k" "j" "q" "b" "p" "r" "v" "f" "o" "u" "r" "8"]
+ ["n" "i" "n" "e" "k" "k" "v" "k" "e" "i" "g" "h" "t" "9" "t" "h" "r" "e" "e"]
+ ["m" "s" "9" "f" "i" "v" "e" "7" "1" "l" "r" "f" "p" "q" "x" "q" "l" "b" "j"]
+ ["9" "f" "i" "v" "e" "9" "s" "e" "v" "e" "n" "l" "d" "s" "h" "q" "f" "g" "c" "n" "q"]
+ ["1" "o" "n" "e" "4" "s" "e" "v" "e" "n"]
+ ["7" "q" "t" "g" "3" "j" "m" "n" "d" "1" "t" "w" "o" "2"]
+ ["2" "c" "7" "f" "o" "u" "r" "8" "o" "n" "e"]
+ ["q" "d" "k" "n" "e" "i" "g" "h" "t" "6" "z" "q" "c" "r" "g" "x" "x" "n" "k" "j" "d" "b" "b"]
+ ["t" "w" "o" "f" "o" "u" "r" "j" "q" "n" "p" "v" "4" "l" "g" "v" "z" "j" "z" "g" "n" "n"]
+ ["p"
+  "g"
+  "m"
+  "m"
+  "m"
+  "c"
+  "v"
+  "c"
+  "r"
+  "m"
+  "x"
+  "s"
+  "e"
+  "v"
+  "e"
+  "n"
+  "f"
+  "o"
+  "u"
+  "r"
+  "1"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "1"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "x"
+  "x"]
+ ["n" "b" "c" "m" "m" "r" "x" "7" "e" "i" "g" "h" "t" "9" "2" "3"]
+ ["5" "e" "i" "g" "h" "t" "r" "9" "t" "h" "r" "e" "e" "m" "m" "d" "t" "p"]
+ ["n" "i" "n" "e" "d" "b" "r" "o" "n" "e" "2"]
+ ["o"
+  "n"
+  "e"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "s"
+  "i"
+  "x"
+  "t"
+  "w"
+  "o"
+  "z"
+  "k"
+  "q"
+  "b"
+  "m"
+  "s"
+  "i"
+  "x"
+  "f"
+  "i"
+  "v"
+  "e"
+  "f"
+  "o"
+  "u"
+  "r"
+  "5"]
+ ["6" "8" "e" "i" "g" "h" "t" "k" "z" "n" "i" "n" "e" "o" "n" "e" "t" "h" "r" "e" "e" "2" "p" "d" "r" "g" "r" "x"]
+ ["9" "f" "o" "u" "r" "2" "p" "j" "d" "x" "g" "b" "s" "x" "d" "d" "p" "k" "f" "q" "j" "q" "r" "t" "z" "t"]
+ ["d" "b" "t" "r" "s" "n" "s" "c" "p" "z" "t" "w" "o" "r" "f" "g" "d" "j" "r" "c" "t" "w" "o" "2" "o" "n" "e" "9"]
+ ["2"
+  "g"
+  "s"
+  "s"
+  "v"
+  "c"
+  "n"
+  "n"
+  "s"
+  "m"
+  "l"
+  "s"
+  "i"
+  "x"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "7"
+  "o"
+  "n"
+  "e"
+  "d"
+  "m"
+  "d"
+  "p"
+  "n"
+  "j"
+  "h"
+  "6"]
+ ["x" "k" "p" "d" "2" "3" "f" "o" "u" "r" "1" "s" "e" "v" "e" "n" "8" "s" "i" "x"]
+ ["l" "d" "z" "6" "3" "8" "m" "f" "p" "n" "c" "l" "z" "t" "d" "j" "k" "n" "s"]
+ ["h" "r" "j" "t" "v" "d" "t" "b" "9" "n" "i" "n" "e" "d" "h" "z" "x" "d" "s" "s" "k" "d"]
+ ["n" "h" "p" "s" "c" "g" "r" "r" "t" "q" "d" "s" "i" "x" "f" "i" "v" "e" "9" "f" "9"]
+ ["s" "i" "x" "k" "z" "q" "q" "z" "n" "m" "m" "c" "q" "q" "x" "n" "i" "n" "e" "p" "d" "q" "b" "f" "8" "n" "i" "n" "e"]
+ ["1" "s" "i" "x" "5" "2" "s" "i" "x" "1"]
+ ["6" "f" "r" "r" "o" "n" "e" "p" "k" "g" "m" "s" "j" "g" "t" "z" "l" "b" "c" "v" "e" "i" "g" "h" "t"]
+ ["t" "h" "r" "e" "e" "j" "c" "t" "z" "b" "k" "x" "b" "o" "n" "e" "7" "s" "i" "x"]
+ ["1"
+  "f"
+  "i"
+  "v"
+  "e"
+  "r"
+  "q"
+  "v"
+  "p"
+  "j"
+  "v"
+  "d"
+  "b"
+  "z"
+  "f"
+  "j"
+  "h"
+  "j"
+  "z"
+  "p"
+  "s"
+  "t"
+  "t"
+  "b"
+  "g"
+  "l"
+  "q"
+  "t"
+  "f"
+  "v"
+  "c"
+  "q"
+  "p"
+  "b"
+  "c"
+  "g"
+  "p"
+  "k"
+  "v"
+  "k"
+  "n"]
+ ["v" "j" "f" "d" "8" "n" "i" "n" "e" "k" "t" "9" "q" "j" "r"]
+ ["1" "6" "f" "i" "v" "e" "f" "i" "v" "e" "s" "i" "x" "t" "s" "m" "p" "k" "z" "v" "9"]
+ ["f"
+  "f"
+  "x"
+  "c"
+  "x"
+  "c"
+  "m"
+  "5"
+  "q"
+  "r"
+  "k"
+  "g"
+  "x"
+  "n"
+  "m"
+  "k"
+  "g"
+  "x"
+  "n"
+  "m"
+  "h"
+  "z"
+  "k"
+  "r"
+  "s"
+  "s"
+  "j"
+  "t"
+  "j"
+  "r"
+  "m"
+  "n"
+  "v"
+  "l"
+  "t"
+  "s"
+  "f"
+  "m"
+  "h"]
+ ["6" "f" "o" "u" "r" "v" "k" "x" "z" "l" "x" "f" "j" "q" "c" "x" "v"]
+ ["s" "i" "x" "j" "x" "p" "q" "j" "t" "c" "r" "t" "s" "i" "x" "j" "t" "w" "o" "1"]
+ ["e" "i" "g" "h" "t" "n" "i" "n" "e" "2" "j" "q" "n" "q" "v" "z" "n" "k" "r" "b" "r" "m" "c" "t" "h" "r" "e" "e" "6"]
+ ["3"
+  "t"
+  "z"
+  "l"
+  "f"
+  "q"
+  "v"
+  "h"
+  "x"
+  "d"
+  "j"
+  "b"
+  "t"
+  "l"
+  "n"
+  "t"
+  "v"
+  "l"
+  "f"
+  "m"
+  "7"
+  "3"
+  "r"
+  "n"
+  "j"
+  "h"
+  "m"
+  "z"
+  "n"
+  "s"
+  "t"
+  "f"
+  "g"
+  "q"
+  "c"
+  "n"
+  "c"
+  "j"
+  "b"
+  "j"]
+ ["f" "i" "v" "e" "c" "l" "s" "p" "v" "3" "d" "l" "b" "v" "l" "p"]
+ ["s" "e" "v" "e" "n" "f" "o" "u" "r" "c" "k" "6" "k" "d" "q" "s" "t" "m" "o" "n" "e"]
+ ["d" "m" "q" "v" "p" "l" "s" "l" "v" "x" "g" "b" "d" "2"]
+ ["2" "l" "z" "j" "m" "l" "p" "f" "c" "c" "g" "n" "l" "q" "f" "i" "v" "e"]
+ ["t" "w" "o" "o" "n" "e" "6" "o" "n" "e"]
+ ["e" "i" "g" "h" "t" "m" "n" "g" "s" "h" "x" "d" "v" "n" "i" "n" "e" "3" "v" "j" "l" "p" "n" "c" "m" "q" "t" "q"]
+ ["1" "s" "t" "t" "w" "o" "4"]
+ ["s" "t" "w" "o" "n" "e" "3" "d" "z" "j" "h" "l" "x" "g"]
+ ["o" "n" "e" "n" "i" "n" "e" "c" "s" "z" "x" "m" "f" "f" "c" "t" "w" "o" "9" "e" "i" "g" "h" "t"]
+ ["5"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "5"
+  "x"
+  "n"
+  "h"
+  "g"
+  "t"
+  "g"
+  "r"
+  "m"
+  "v"
+  "t"
+  "h"
+  "r"
+  "e"
+  "e"
+  "6"
+  "o"
+  "n"
+  "e"
+  "f"
+  "k"
+  "x"
+  "j"
+  "h"
+  "g"
+  "l"
+  "r"
+  "1"]
+ ["8" "8" "o" "n" "e" "t" "h" "r" "e" "e" "n" "x" "t" "h" "h" "b" "q" "s" "9" "l" "j" "n" "p" "b" "m" "h" "3"]
+ ...]
+clj꞉aoc2023.core꞉> 
+; Syntax error (ClassCastException) compiling fn* at (src/aoc2023/core.clj:11:12).
+; clojure.lang.Symbol cannot be cast to clojure.lang.IPersistentVector
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling def at (src/aoc2023/core.clj:12:1).
+; Too many arguments to def
+clj꞉aoc2023.core꞉> 
+; Syntax error (IllegalArgumentException) compiling . at (src/aoc2023/core.clj:16:17).
+; No matching method parseInt found taking 0 args for class java.lang.Integer
+clj꞉aoc2023.core꞉> 
+; Syntax error (IllegalArgumentException) compiling try at (src/aoc2023/core.clj:16:26).
+; Bad binding form, expected symbol, got: null
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/parse-input-row-str (form-init9088550177746727539.clj:15).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil nil nil nil nil nil nil nil nil 8 7 4)
+clj꞉aoc2023.core꞉> 
+(8 7 4)
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8324 (form-init9088550177746727539.clj:23).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8117$get_calibration_val__8118$fn__8119
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val (form-init9088550177746727539.clj:32).
+; Don't know how to create ISeq from: aoc2023.core$get_calibration_val$fn__8330
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val (form-init9088550177746727539.clj:32).
+; Don't know how to create ISeq from: aoc2023.core$get_calibration_val$fn__8330
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval8352$get_calibration_val__8353$fn__8354
+clj꞉aoc2023.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:54816 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉> 
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:28).
+; Don't know how to create ISeq from: aoc2023.core$get_calibration_val$fn__6056
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at cider.nrepl.middleware.debug/pr-short (debug.clj:188).
+; Don't know how to create ISeq from: aoc2023.core$eval6308$get_calibration_val__6309$fn__6310
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/get-calibration-val$fn (form-init11020787136688445261.clj:26).
+; java.base/java.lang.Integer cannot be cast to clojure.lang.IPersistentCollection
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val$fn (form-init11020787136688445261.clj:26).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/get-calibration-val$fn (form-init11020787136688445261.clj:26).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/first-last$fn (form-init11020787136688445261.clj:31).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/ints
+; WARNING: ints already refers to: #'clojure.core/ints in namespace: aoc2023.core, being replaced by: #'aoc2023.core/ints
+clj꞉aoc2023.core꞉> 
+(8 7 4)
+clj꞉aoc2023.core꞉> 
+(7 4)
+clj꞉aoc2023.core꞉> 
+4
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8111 (form-init11020787136688445261.clj:35).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+8
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/eval8115 (form-init11020787136688445261.clj:35).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+[8]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+[nil 4]
+clj꞉aoc2023.core꞉> 
+[8 4]
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil nil nil nil nil nil nil nil nil 8 7 4)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+[8 4]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+[8 4]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+84
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (NullPointerException) at aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:42).
+; null
+clj꞉aoc2023.core꞉> 
+; Execution error (NullPointerException) at aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:42).
+; null
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+; Execution error (NullPointerException) at aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:42).
+; null
+clj꞉aoc2023.core꞉> 
+clojure.lang.Numbers/ops (Numbers.java:1095)
+clojure.lang.Numbers/multiply (Numbers.java:175)
+clojure.core/* (core.clj:1018)
+clojure.core/* (core.clj:1010)
+clojure.core/map (core.clj:2777)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.Cons/next (Cons.java:39)
+clojure.lang.RT/boundedLength (RT.java:1790)
+clojure.core/apply (core.clj:667)
+clojure.core/apply (core.clj:662)
+aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:42)
+aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:34)
+clojure.core/map (core.clj:2770)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:535)
+clojure.core/seq (core.clj:139)
+clojure.core/apply (core.clj:662)
+aoc2023.core/eval8190 (form-init11020787136688445261.clj:50)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+; Error printing return value (NullPointerException) at clojure.lang.Numbers/ops (Numbers.java:1095).
+; null
+clj꞉aoc2023.core꞉> 
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+84
+clj꞉aoc2023.core꞉> 
+57
+clj꞉aoc2023.core꞉> 
+; Execution error (NullPointerException) at aoc2023.core/get-calibration-val (form-init11020787136688445261.clj:42).
+; null
+clj꞉aoc2023.core꞉> 
+[3 nil]
+clj꞉aoc2023.core꞉> 
+; Error printing return value (NullPointerException) at clojure.lang.Numbers/ops (Numbers.java:1095).
+; null
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+(30)
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:50:10).
+; Unable to resolve symbol: coll-of-ints-to-base-10 in this context
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:37).
+; java.base/java.lang.Integer cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:37).
+; java.base/java.lang.Integer cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:37).
+; java.base/java.lang.Integer cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:37)
+aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:34)
+aoc2023.core/eval8218 (form-init11020787136688445261.clj:54)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/coll-of-ints-to-base-10 (form-init11020787136688445261.clj:37).
+; java.base/java.lang.Boolean cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+(30 3)
+clj꞉aoc2023.core꞉> 
+; Error printing return value (NullPointerException) at clojure.lang.Numbers/ops (Numbers.java:1095).
+; null
+clj꞉aoc2023.core꞉> 
+3
+clj꞉aoc2023.core꞉> 
+0
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+57
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉aoc2023.core꞉> 
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+((80 4)
+ (80 4)
+ (80 8)
+ (50 7)
+ (70 2)
+ (60 8)
+ 9
+ (90 1)
+ (90 9)
+ (10 4)
+ (70 2)
+ (20 8)
+ 6
+ 4
+ (10 1)
+ (70 3)
+ (50 9)
+ 2
+ 5
+ (60 2)
+ (90 2)
+ (20 9)
+ (20 6)
+ (20 8)
+ (60 8)
+ 9
+ (90 9)
+ 8
+ (10 1)
+ 6
+ 7
+ 1
+ (80 9)
+ (10 9)
+ 5
+ 6
+ 1
+ (20 6)
+ (30 3)
+ 3
+ 6
+ 2
+ 2
+ 6
+ 3
+ (10 4)
+ 3
+ 9
+ (50 1)
+ (80 3)
+ ...)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+((80 4)
+ (80 4)
+ (80 8)
+ (50 7)
+ (70 2)
+ (60 8)
+ (9)
+ (90 1)
+ (90 9)
+ (10 4)
+ (70 2)
+ (20 8)
+ (6)
+ (4)
+ (10 1)
+ (70 3)
+ (50 9)
+ (2)
+ (5)
+ (60 2)
+ (90 2)
+ (20 9)
+ (20 6)
+ (20 8)
+ (60 8)
+ (9)
+ (90 9)
+ (8)
+ (10 1)
+ (6)
+ (7)
+ (1)
+ (80 9)
+ (10 9)
+ (5)
+ (6)
+ (1)
+ (20 6)
+ (30 3)
+ (3)
+ (6)
+ (2)
+ (2)
+ (6)
+ (3)
+ (10 4)
+ (3)
+ (9)
+ (50 1)
+ (80 3)
+ ...)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+(84
+ 84
+ 88
+ 57
+ 72
+ 68
+ 9
+ 91
+ 99
+ 14
+ 72
+ 28
+ 6
+ 4
+ 11
+ 73
+ 59
+ 2
+ 5
+ 62
+ 92
+ 29
+ 26
+ 28
+ 68
+ 9
+ 99
+ 8
+ 11
+ 6
+ 7
+ 1
+ 89
+ 19
+ 5
+ 6
+ 1
+ 26
+ 33
+ 3
+ 6
+ 2
+ 2
+ 6
+ 3
+ 14
+ 3
+ 9
+ 51
+ 83
+ ...)
+clj꞉aoc2023.core꞉> 
+39347
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+39347
+clj꞉aoc2023.core꞉> 
+"4255sevenjjfbdtrdmb36"
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-ints
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-ints
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+("qmdtwone66gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjm4"
+ "qmdtwone66gcnlhtnjmfour"
+ "qmdtw166gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjmfour"
+ "qmd2ne66gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjmfour"
+ "qmdtwone66gcnlhtnjmfour")
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+([#"nine" "qmdtwone66gcnlhtnjmfour"]
+ [#"five" "qmdtwone66gcnlhtnjmfour"]
+ [#"four" "qmdtwone66gcnlhtnjm4"]
+ [#"zero" "qmdtwone66gcnlhtnjmfour"]
+ [#"one" "qmdtw166gcnlhtnjmfour"]
+ [#"eight" "qmdtwone66gcnlhtnjmfour"]
+ [#"three" "qmdtwone66gcnlhtnjmfour"]
+ [#"two" "qmd2ne66gcnlhtnjmfour"]
+ [#"six" "qmdtwone66gcnlhtnjmfour"]
+ [#"seven" "qmdtwone66gcnlhtnjmfour"])
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+3
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+([#"nine" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"five" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"four" nil "qmdtwone66gcnlhtnjm4"]
+ [#"zero" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"one" nil "qmdtw166gcnlhtnjmfour"]
+ [#"eight" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"three" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"two" nil "qmd2ne66gcnlhtnjmfour"]
+ [#"six" 8 "qmdtwone66gcnlhtnjmfour"]
+ [#"seven" nil "qmdtwone66gcnlhtnjmfour"])
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8354 (form-init11020787136688445261.clj:26).
+; java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.String
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8356 (form-init11020787136688445261.clj:26).
+; java.base/java.util.regex.Pattern cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+3
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+([#"nine" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"five" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"four" 19 "qmdtwone66gcnlhtnjm4"]
+ [#"zero" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"one" 5 "qmdtw166gcnlhtnjmfour"]
+ [#"eight" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"three" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"two" 3 "qmd2ne66gcnlhtnjmfour"]
+ [#"six" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"seven" nil "qmdtwone66gcnlhtnjmfour"])
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; Don't know how to create ISeq from: java.lang.Character
+clj꞉aoc2023.core꞉> 
+([#"nine" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"five" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"zero" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"eight" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"three" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"six" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"seven" nil "qmdtwone66gcnlhtnjmfour"]
+ [#"two" 3 "qmd2ne66gcnlhtnjmfour"]
+ [#"one" 5 "qmdtw166gcnlhtnjmfour"]
+ [#"four" 19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+([#"two" 3 "qmd2ne66gcnlhtnjmfour"] [#"one" 5 "qmdtw166gcnlhtnjmfour"] [#"four" 19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+[3 "qmd2ne66gcnlhtnjmfour"]
+clj꞉aoc2023.core꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:38:30).
+; Unable to find static field: parseInt in class java.lang.Integer
+clj꞉user꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:37:30).
+; Unable to find static field: parseInt in class java.lang.Integer
+clj꞉user꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:37:25).
+; Unable to find static field: parseInt in class java.lang.Integer
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+clj꞉user꞉> 
+(nil nil)
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+(6 6)
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+([6] [6])
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+(nil nil)
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (1) passed to: clojure.string/split
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (1) passed to: clojure.string/split
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+(([0 6] [0 6]) ([0 6] [0 6]))
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+#'user/parse-input-row-str
+clj꞉user꞉> 
+([0 6] [0 6])
+clj꞉user꞉> 
+([3 "qmd2ne66gcnlhtnjmfour"] [5 "qmdtw166gcnlhtnjmfour"] [19 "qmdtwone66gcnlhtnjm4"])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+([0 6] [1 6])
+clj꞉aoc2023.core꞉> 
