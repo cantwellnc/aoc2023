@@ -1346,3 +1346,171 @@ clj꞉aoc2023.core꞉> 
 clj꞉aoc2023.core꞉> 
 ([0 6] [1 6])
 clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:40:4).
+; Unable to resolve symbol: map-index in this context
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:40:5).
+; Unable to resolve symbol: map-index in this context
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:40:5).
+; Unable to resolve symbol: map-index in this context
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/find-and-replace
+clj꞉aoc2023.core꞉> 
+3
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+; Error printing return value (NullPointerException) at aoc2023.core/parse-spelled-int$fn (form-init11020787136688445261.clj:42).
+; null
+clj꞉aoc2023.core꞉> 
+"e"
+clj꞉aoc2023.core꞉> 
+; Execution error (StringIndexOutOfBoundsException) at java.lang.String/checkBoundsBeginEnd (String.java:3116).
+; begin 2, end 4, length 3
+clj꞉aoc2023.core꞉> 
+""
+clj꞉aoc2023.core꞉> 
+"e"
+clj꞉aoc2023.core꞉> 
+; Execution error (StringIndexOutOfBoundsException) at java.lang.String/substring (String.java:1852).
+; String index out of range: -1
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+"ne"
+clj꞉aoc2023.core꞉> 
+"one"
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+; Error printing return value (StringIndexOutOfBoundsException) at java.lang.String/checkBoundsBeginEnd (String.java:3116).
+; begin 4, end 3, length 9
+clj꞉aoc2023.core꞉> 
+"on"
+clj꞉aoc2023.core꞉> 
+"one"
+clj꞉aoc2023.core꞉> 
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+3
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+hahnil
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+([0 "one"] nil nil nil nil nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+"four"
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+4
+clj꞉aoc2023.core꞉> 
+["o" "n" "e" "2" "3" "f" "o" "u" "r"]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/temp
+clj꞉aoc2023.core꞉> 
+false
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil [5 "four"] nil nil nil)
+clj꞉aoc2023.core꞉> 
+([0 "two"] nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+(nil nil [2 "one"] nil nil)
+clj꞉aoc2023.core꞉> 
+([0 "two"] nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+"1"
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8734 (form-init11020787136688445261.clj:27).
+; java.base/java.lang.String cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil [5 "4"] nil nil nil)
+clj꞉aoc2023.core꞉> 
+([0 "2"] nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+(nil nil [2 "1"] nil nil)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+(nil nil [2 "1"] nil nil)
+clj꞉aoc2023.core꞉> 
+([0 "2"] nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil [5 "4"] nil nil nil)
+clj꞉aoc2023.core꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.core/eval8761 (form-init11020787136688445261.clj:41).
+; Don't know how to create ISeq from: clojure.core$map$fn__5931
+clj꞉aoc2023.core꞉> 
+()
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil [3 "2"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "1"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil [3 "2"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "1"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
