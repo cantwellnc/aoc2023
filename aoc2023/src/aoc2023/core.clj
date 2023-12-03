@@ -22,24 +22,36 @@
 
 ;; Day 1
 (def spelled-int->int
-  {"zero" "0" "one" "1" "two" "2" "three" "3" "four" "4" "five" "5" "six" "6" "seven" "7" "eight" "8" "nine" "9"})
+  {"zero" 0 "one" 1 "two" 2 "three" 3 "four" 4 "five" 5 "six" 6 "seven" 7 "eight" 8 "nine" 9})
 
 
 (defn parse-spelled-int
-  "A specific instance of find and replace with spelled-int->int replacement map."
+  "Find instances of spelled-int (ex: 'one') in in-str and replace them
+   with the value specified by spelled-int->int."
   [in-str spelled-int]
   (let [chars (clojure.string/split in-str #"")
-        spelled-word-len (count spelled-int)] 
+        spelled-word-len (count spelled-int)]
     (map-indexed (fn [idx _] (when (<= (+ idx spelled-word-len) (count in-str))
                                (when (= spelled-int (subs in-str idx (+ idx spelled-word-len)))
                                  [idx (spelled-int->int spelled-int)]))) chars)))
 
-(parse-spelled-int "one23four" "four")
+(defn remove-nil-rows
+  "removes rows of nils from a collection, flattening out the collection
+   at the end to just be a single seq of [idx match] vecs.
+   Ex: ((nil nil) ([1] nil) ([2] nil)) => ([1] [2])"
+  [coll] (apply concat (filter not-empty (map (fn [row] (filter some? row)) coll))))
+
+(defn parse-spelled-row
+  "returns a list of all spelled ints as [idx matching-int] vecs."
+  [row]
+  (map (fn [spelled-int] (parse-spelled-int row spelled-int)) (keys spelled-int->int)))
+
+
+;; quick checks
+(remove-nil-rows ( parse-spelled-row "one23four"))
+(remove-nil-rows ( parse-spelled-row "ninexzhtqsr6hnftrbbnsevensevenoneightq"))
 (parse-spelled-int "twone" "two")
 (parse-spelled-int "twone" "one")
-
-;; GOOD STOPPING POINT. we have the matche we need, just need to filter out all the nulls
-(filter some? (map #(parse-spelled-int "qmdtwone66gcnlhtnjmfour" %) (keys spelled-int->int)))
 
 
 (defn parse-input-row-str
@@ -48,21 +60,36 @@
    parseable as an int, return nil."
   [row]
   (let [chars (clojure.string/split row #"")]
-    (map-indexed (fn [idx char]
-                   (try
-                     [idx (Integer/parseInt char)]
-                     (catch Exception _))) chars)))
+    (filter some? (map-indexed (fn [idx char]
+                                 (try
+                                   [idx (Integer/parseInt char)]
+                                   (catch Exception _))) chars))))
 
-(parse-input-row-str "66")
+;; combine the spelled results with the pure digit results
+
+(defn parse-spelled-and-digit-matches 
+  "combines spelled matches and digit matches, sorting by index. 
+   this will allow us to correctly choose the 'first' and 'last' numbers.
+   pops off idx from each [idx match] at the end so that we're
+   left with a seq of ints, sorted by their occurrence in `row`."
+  [row]
+  (map second (sort-by first
+                (into (parse-input-row-str row)
+                      (remove-nil-rows (parse-spelled-row row))))))
+
+(apply concat ( filter not-empty ( map (fn [row] (filter some? row)) ( parse-spelled-row "sevenseven"))))
+(remove-nil-rows( parse-spelled-row "sevenseven"))
+(parse-spelled-and-digit-matches "ninexzhtqsr6hnftrbbnsevensevenoneightq")
 
 ;; read in input, and split into a vec 
 ;; of vecs of chars that have been run through
-;; parse-input-row-str. 
+;; parse-spelled-and-digit-matches
 (def input (->
             (slurp "resources/day1_input.txt")
             (clojure.string/split #"\n")
-            (#(reduce (fn [init-val row] (conj init-val (parse-input-row-str row))) [] %))))
+            (#(reduce (fn [init-val row] (conj init-val (parse-spelled-and-digit-matches row))) [] %))))
 
+input
 (defn first-and-last
   "gets the first and last item of coll and puts them in a vec together"
   [coll] (filter some? [(first coll) (last (rest coll))]))
@@ -84,18 +111,22 @@
    input from something that has been run through `parse-input-row-str`."
   [instr]
   (->>  instr
-        (filter int?) ;; collect only the ints
         (first-and-last) ;; take first and last val
         (coll-of-ints-to-base-10) ;; do base 10 stuff
         (apply +) ;; sum up 
         ))
 
+
+
+
+;; seems to be working??? i don't understand what cases i am missing counting....
+(get-calibration-val ( parse-spelled-and-digit-matches "threeonethreekmpstnineeighteight4eightwopt"))
+
 ;; first row from input data is nqninenmvnpsz874, 
-;; so the calibration val should be 84
-(= 84 (get-calibration-val (first input)))
+;; so the calibration val should be 94, since we 
+;; have a spelled "nine" as the first num, and the 
+;; digit 4 as the last num.
+(= 94 (get-calibration-val (first input)))
 
 ;; ANSWER
 (apply + (map get-calibration-val input))
-
-
-(clojure.string/replace "42five5sevenjjfbdtrdmb36" #"five" "5")

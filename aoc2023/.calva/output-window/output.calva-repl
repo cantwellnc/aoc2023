@@ -1514,3 +1514,806 @@ clj꞉aoc2023.core꞉> 
  (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
  (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
 clj꞉aoc2023.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:55858 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉> 
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+(3 "2" 5 "1" 19 "4")
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil [3 "2"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "1"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling def at (src/aoc2023/core.clj:42:1).
+; First argument to def must be a Symbol
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/temp-rows
+clj꞉aoc2023.core꞉> 
+(() () ([3 "2"]) () () () () ([5 "1"]) () ([19 "4"]))
+clj꞉aoc2023.core꞉> 
+(([3 "2"]) ([5 "1"]) ([19 "4"]))
+clj꞉aoc2023.core꞉> 
+([3 "2"] [5 "1"] [19 "4"])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+(nil nil nil nil nil [5 "4"] nil nil nil)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parsed-spelled-rows
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil [3 "2"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "1"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parsed-spelled-rows
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil [3 "2"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "1"] nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil [19 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows-and-take-first
+clj꞉aoc2023.core꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/core.clj:45:34).
+; Can't call nil, form: (nil nil)
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: clojure.lang.Symbol
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.core꞉> 
+clojure.main/repl (main.clj:442)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.core꞉> 
+(nil 1)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parsed-spelled-rows
+clj꞉aoc2023.core꞉> 
+([3 "2"] [5 "1"] [19 "4"])
+clj꞉aoc2023.core꞉> 
+(nil 1 2)
+clj꞉aoc2023.core꞉> 
+; Error printing return value (ClassCastException) at aoc2023.core/eval8206$fn (form-init3416622422887681499.clj:46).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+; Error printing return value (ClassCastException) at aoc2023.core/eval8210$fn (form-init3416622422887681499.clj:46).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+(() (1) (2))
+clj꞉aoc2023.core꞉> 
+((1) (2))
+clj꞉aoc2023.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.core꞉> 
+([1] [2])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows-and-take-first
+clj꞉aoc2023.core꞉> 
+([3 "2"] [5 "1"] [19 "4"])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parsed-spelled-row
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-row
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ ([0 "1"] nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil [5 "4"] nil nil nil))
+clj꞉aoc2023.core꞉> 
+([0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+([0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+([0 6] [1 6])
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at java.util.TimSort/binarySort (TimSort.java:296).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.Number
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/eval8268 (form-init3416622422887681499.clj:70).
+; clojure.lang.Cons cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.core꞉> 
+(([0 "1"] [5 "4"]) nil nil nil [3 2] [4 3] nil nil nil nil)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+; Execution error (StackOverflowError) at java.util.regex.Matcher/<init> (Matcher.java:253).
+; null
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+(([0 "1"] [5 "4"]) [3 2] [4 3])
+clj꞉aoc2023.core꞉> 
+(([3 2] [4 3]) [0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+(([0 "1"] [5 "4"]) [3 2] [4 3])
+clj꞉aoc2023.core꞉> 
+(([3 2] [4 3]) [0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+((3 2 4 3) [0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+(([3 2] [4 3]) [0 "1"] [5 "4"])
+clj꞉aoc2023.core꞉> 
+([5 "4"] [0 "1"] [3 2] [4 3])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows-and-take-first
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-row
+clj꞉aoc2023.core꞉> 
+([0 1] [5 4])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+([5 4] [0 1] [3 2] [4 3])
+clj꞉aoc2023.core꞉> 
+([0 1] [3 2] [4 3] [5 4])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+[([2 9] [13 8] [14 7] [15 4])
+ ([0 8] [1 2] [21 7] [26 4])
+ ([0 6] [3 8] [12 7] [17 8] [26 3] [34 5])
+ ([5 5] [6 4] [9 7] [10 5] [11 9] [15 7])
+ ([0 7] [24 2])
+ ([5 2] [8 6] [16 4] [20 8])
+ ([0 9] [8 8] [13 9] [14 3])
+ ([2 9] [3 5] [7 7] [8 1])
+ ([0 9] [1 5] [5 9] [6 7])
+ ([0 1] [1 1] [4 4] [5 7])
+ ([0 7] [4 3] [9 1] [10 2] [13 2])
+ ([0 2] [2 7] [3 4] [7 8] [8 1])
+ ([4 8] [9 6])
+ ([0 2] [3 4] [12 4])
+ ([11 7] [16 4] [20 1] [21 3] [26 1])
+ ([7 7] [8 8] [13 9] [14 2] [15 3])
+ ([0 5] [1 8] [7 9] [8 3])
+ ([0 9] [7 1] [10 2])
+ ([0 1] [3 3] [8 6] [11 2] [22 5] [26 4] [30 5])
+ ([0 6] [1 8] [2 8] [9 9] [13 1] [16 3] [21 2])
+ ([0 9] [1 4] [5 2])
+ ([10 2] [23 2] [24 1] [27 9])
+ ([0 2] [11 6] [14 3] [19 7] [20 1] [30 6])
+ ([4 2] [5 3] [6 4] [10 1] [11 7] [16 8] [17 6])
+ ([3 6] [4 3] [5 8])
+ ([8 9] [9 9])
+ ([11 6] [14 5] [18 9] [20 9])
+ ([0 6] [15 9] [24 8])
+ ([0 1] [1 6] [4 5] [5 2] [9 1])
+ ([0 6] [4 1] [20 8])
+ ([0 3] [13 1] [16 7] [17 6])
+ ([0 1] [1 5])
+ ([4 8] [5 9] [11 9])
+ ([0 1] [1 6] [2 5] [10 6] [20 9])
+ ([7 5])
+ ([0 6] [1 4])
+ ([0 6] [16 2] [19 1])
+ ([0 8] [5 9] [9 2] [23 3] [28 6])
+ ([0 3] [20 7] [21 3])
+ ([0 5] [9 3])
+ ([0 7] [5 4] [11 6] [18 1])
+ ([13 2])
+ ([0 2] [14 5])
+ ([0 2] [3 1] [6 6])
+ ([0 8] [13 9] [17 3])
+ ([0 1] [3 2] [6 4])
+ ([1 2] [3 1] [6 3])
+ ([0 1] [3 9] [15 2] [18 9] [19 8])
+ ([0 5] [1 3] [6 5] [21 6] [22 1] [33 1])
+ ([0 8] [1 8] [2 1] [5 3] [18 9] [26 3])
+ ...]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+[(9 8 7 4)
+ (8 2 7 4)
+ (6 8 7 8 3 5)
+ (5 4 7 5 9 7)
+ (7 2)
+ (2 6 4 8)
+ (9 8 9 3)
+ (9 5 7 1)
+ (9 5 9 7)
+ (1 1 4 7)
+ (7 3 1 2 2)
+ (2 7 4 8 1)
+ (8 6)
+ (2 4 4)
+ (7 4 1 3 1)
+ (7 8 9 2 3)
+ (5 8 9 3)
+ (9 1 2)
+ (1 3 6 2 5 4 5)
+ (6 8 8 9 1 3 2)
+ (9 4 2)
+ (2 2 1 9)
+ (2 6 3 7 1 6)
+ (2 3 4 1 7 8 6)
+ (6 3 8)
+ (9 9)
+ (6 5 9 9)
+ (6 9 8)
+ (1 6 5 2 1)
+ (6 1 8)
+ (3 1 7 6)
+ (1 5)
+ (8 9 9)
+ (1 6 5 6 9)
+ (5)
+ (6 4)
+ (6 2 1)
+ (8 9 2 3 6)
+ (3 7 3)
+ (5 3)
+ (7 4 6 1)
+ (2)
+ (2 5)
+ (2 1 6)
+ (8 9 3)
+ (1 2 4)
+ (2 1 3)
+ (1 9 2 9 8)
+ (5 3 5 6 1 1)
+ (8 8 1 3 9 3)
+ ...]
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+false
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+52602
+clj꞉aoc2023.core꞉> 
+(9 6 7 1 8)
+clj꞉aoc2023.core꞉> 
+((nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ ([0 7] nil nil nil nil [5 7] nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil))
+clj꞉aoc2023.core꞉> 
+([0 7])
+clj꞉aoc2023.core꞉> 
+(() () () ([0 7] [5 7]) () () () () () ())
+clj꞉aoc2023.core꞉> 
+(([0 7] [5 7]))
+clj꞉aoc2023.core꞉> 
+(([0 7] [5 7]))
+clj꞉aoc2023.core꞉> 
+([0 7] [5 7])
+clj꞉aoc2023.core꞉> 
+([0 1] [5 4])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows-and-take-first
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-row
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:78:23).
+; Unable to resolve symbol: remove-nil-rows in this context
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows
+clj꞉aoc2023.core꞉> 
+([0 1] [5 4])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+([0 7] [5 7])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+52551
+clj꞉aoc2023.core꞉> 
+((nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  [20 7]
+  nil
+  nil
+  nil
+  nil
+  [25 7]
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  [32 8]
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  [30 1]
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ ([0 9]
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil)
+ (nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil
+  nil))
+clj꞉aoc2023.core꞉> 
+([20 7] [25 7] [32 8] [30 1] [0 9])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-row
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+52551
+clj꞉aoc2023.core꞉> 
+98
+clj꞉aoc2023.core꞉> 
+69
+clj꞉aoc2023.core꞉> 
+6
+clj꞉aoc2023.core꞉> 
+32
+clj꞉aoc2023.core꞉> 
