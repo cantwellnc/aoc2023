@@ -2317,3 +2317,244 @@ clj꞉aoc2023.core꞉> 
 clj꞉aoc2023.core꞉> 
 32
 clj꞉aoc2023.core꞉> 
+28
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/core.clj:1:7977).
+; Unable to resolve symbol: twoneight9 in this context
+clj꞉aoc2023.core꞉> 
+"twoneight9"
+clj꞉aoc2023.core꞉> 
+29
+clj꞉aoc2023.core꞉> 
+([0 7] [5 7])
+clj꞉aoc2023.core꞉> 
+([0 6] [24 3] [21 1])
+clj꞉aoc2023.core꞉> 
+([0 6] [24 3] [21 1])
+clj꞉aoc2023.core꞉> 
+(9 6 7 7 1 8)
+clj꞉aoc2023.core꞉> 
+(6 1 1 3)
+clj꞉aoc2023.core꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.core꞉> 
+([1] [1])
+clj꞉aoc2023.core꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/multiply (Numbers.java:175).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.Number
+clj꞉aoc2023.core꞉> 
+(10 1)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/spelled-int->int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-int
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/remove-nil-rows
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-row
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-input-row-str
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/parse-spelled-and-digit-matches
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/first-and-last
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+(10 1)
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+29
+clj꞉aoc2023.core꞉> 
+66
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+55701
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+55701
+clj꞉aoc2023.core꞉> 
+55701
+clj꞉aoc2023.core꞉> 
+28
+clj꞉aoc2023.core꞉> 
+28
+clj꞉aoc2023.core꞉> 
+25
+clj꞉aoc2023.core꞉> 
+99
+clj꞉aoc2023.core꞉> 
+78
+clj꞉aoc2023.core꞉> 
+0
+clj꞉aoc2023.core꞉> 
+{"9eight97lxkxzr" 97,
+ "sqfbbqsix6five6five88" 68,
+ "cxqjgsrnndjxxjrghxqpnjrqtzct96knrtm4" 94,
+ "onesix9threegtqgvfour5kjmlkkvgdp" 15,
+ "1threet23" 13,
+ "v66" 66,
+ "m4trfc8" 48,
+ "739" 79,
+ "gxhtwo17fourtjkgpbhxn3five" 25,
+ "eight1cxbsdxcdmksslxgfqg" 81,
+ "59threesevencmckfourfour" 54,
+ "m5ksjbcnine7" 57,
+ "fdlzfivexhgbbkzsbkrjgshone13" 53,
+ "4twoeight" 48,
+ "rfdbgxlxdccgmrlbglc9642fourthree" 93,
+ "six3fqrvmrcrspsix7ptsseight" 68,
+ "seven6843sixnggrpk3" 73,
+ "seveng3zqsix3fivefmqbjmfddn" 75,
+ "4ftz7fourlzeightwodvh" 42,
+ "dcnhsvsdgzrbkqqcsx2onemxnpm1seveneight" 28,
+ "8onesix6rvxd" 86,
+ "4eight1mmtqckvnxfour" 44,
+ "chn2fxmpfourvds5rnphvp" 25,
+ "4tttnbkzjdvbgfpthtkt2xnine" 49,
+ "five7one" 51,
+ "three9zhzglqcrhtstxzrdlxkl" 39,
+ "9cmprqhj8" 98,
+ "1259eight3twooneone" 11,
+ "tmn3oneeight515" 35,
+ "oneone2" 12,
+ "6xjzrdvninesixjkhcs9" 69,
+ "lpkhnfbfrjhj7one" 71,
+ "562hjlcmsddf1ngdpcnqdd" 51,
+ "four74" 44,
+ "fstfdzzdseightone496" 86,
+ "cvsxtkldqh1jpqnctrz" 11,
+ "mthreedhr78hxbzrzrmk7" 37,
+ "qznhctbxb1" 11,
+ "8one487sixone" 81,
+ "3dcbjfzxplnkhhc4" 34,
+ "fiveg1" 51,
+ "23seven4zhshxgcgb" 24,
+ "nine9nine8hfgeight" 98,
+ "5one8" 58,
+ "zpthreevf4gqcvrkdsnxthree5" 35,
+ "eight3eight" 88,
+ "five6429" 59,
+ "1nine7eight" 18,
+ "7oneeightxmxsxt" 78,
+ "8ninetwonnseventwoseveneightfour" 84,
+ ...}
+clj꞉aoc2023.core꞉> 
+0
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.core꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/aoc2023/core.clj:1:1).
+; :as - failed: simple-symbol? at: [:ns-clauses :require :body :libspec :lib] spec: :clojure.core.specs.alpha/libspec
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :require :body :libspec :lib+opts] spec: :clojure.core.specs.alpha/libspec
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :require :body :prefix-list] spec: :clojure.core.specs.alpha/prefix-list
+; :as - failed: #{:verbose :reload :reload-all} at: [:ns-clauses :require :body :flag] spec: :clojure.core.specs.alpha/ns-require
+; :require - failed: #{:refer-clojure} at: [:ns-clauses :refer-clojure :clause] spec: :clojure.core.specs.alpha/ns-refer-clojure
+; :require - failed: #{:import} at: [:ns-clauses :import :clause] spec: :clojure.core.specs.alpha/ns-import
+; :require - failed: #{:use} at: [:ns-clauses :use :clause] spec: :clojure.core.specs.alpha/ns-use
+; :require - failed: #{:refer} at: [:ns-clauses :refer :clause] spec: :clojure.core.specs.alpha/ns-refer
+; :r
+; equire - failed: #{:load} at: [:ns-clauses :load :clause] spec: :clojure.core.specs.alpha/ns-load
+; :require - failed: #{:gen-class} at: [:ns-clauses :gen-class :clause] spec: :clojure.core.specs.alpha/ns-gen-class
+clj꞉aoc2023.core꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/aoc2023/core.clj:1:1).
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :refer-clojure] spec: :clojure.core.specs.alpha/ns-refer-clojure
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :require] spec: :clojure.core.specs.alpha/ns-require
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :import] spec: :clojure.core.specs.alpha/ns-import
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :use] spec: :clojure.core.specs.alpha/ns-use
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :refer] spec: :clojure.core.specs.alpha/ns-refer
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :load] spec: :clojure.core.specs.alpha/ns-load
+; :as - failed: (or (nil? %) (sequential? %)) at: [:ns-clauses :gen-class] spec: :clojure.core.specs.alpha/ns-gen-class
+clj꞉aoc2023.core꞉> 
+; Execution error (FileNotFoundException) at aoc2023.core/eval8552$loading (form-init3416622422887681499.clj:1).
+; Could not locate clojure/data/json__init.class, clojure/data/json.clj or clojure/data/json.cljc on classpath.
+clj꞉aoc2023.core꞉> 
+; Execution error (FileNotFoundException) at aoc2023.core/eval8558$loading (form-init3416622422887681499.clj:1).
+; Could not locate cheshire/core__init.class, cheshire/core.clj or cheshire/core.cljc on classpath.
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/coll-of-ints-to-base-10
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+55701
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input
+clj꞉aoc2023.core꞉> 
+([13 8] [14 7] [15 4])
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val
+clj꞉aoc2023.core꞉> 
+56397
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input-pt-1
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/input-pt-2
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val-pt-1
+clj꞉aoc2023.core꞉> 
+#'aoc2023.core/get-calibration-val-pt-2
+clj꞉aoc2023.core꞉> 
+; Execution error (ClassCastException) at aoc2023.core/get-calibration-val-pt-2 (form-init3416622422887681499.clj:123).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.Number
+clj꞉aoc2023.core꞉> 
+true
+clj꞉aoc2023.core꞉> 
+56397
+clj꞉aoc2023.core꞉> 
+55701
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.day1꞉> 
+; Syntax error compiling at (src/aoc2023/day1.clj:130:10).
+; Unable to resolve symbol: get-calibration-val-pt-2 in this context
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/spelled-int->int
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/parse-spelled-int
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/remove-nil-rows
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/parse-spelled-row
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/parse-input-row-str
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/parse-spelled-and-digit-matches
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/input-pt-1
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/input-pt-2
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/first-and-last
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/coll-of-ints-to-base-10
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/get-calibration-val-pt-1
+clj꞉aoc2023.day1꞉> 
+#'aoc2023.day1/get-calibration-val-pt-2
+clj꞉aoc2023.day1꞉> 
+true
+clj꞉aoc2023.day1꞉> 
+56397
+clj꞉aoc2023.day1꞉> 
+55701
+clj꞉aoc2023.day1꞉> 
+55701
+clj꞉aoc2023.day1꞉> 

@@ -1,14 +1,7 @@
-(ns aoc2023.core
-  [:require clojure.string])
+(ns aoc2023.day1
+  [:require clojure.string]) 
 
-;; main fn, ignore
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
-
-
- ;; NOTES: 
+;; NOTES: 
  ;; so far, I had a solution that only worked with digits in a numeric representation.
  ;; after looking at the input, there are digits that are literally spelled out, so we
  ;; need to account for those too. 
@@ -115,7 +108,7 @@
 
 (defn get-calibration-val-pt-2
   "gets the calibration val for a coll containing ints and nils. expects
-   input from something that has been run through `parse-input-row-str`."
+   input from something that has been run through `parse-spelled-and-digit-matches`."
   [instr]
   (->>  instr
         (first-and-last) ;; take first and last val
