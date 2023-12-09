@@ -2558,3 +2558,664 @@ clj꞉aoc2023.day1꞉> 
 clj꞉aoc2023.day1꞉> 
 55701
 clj꞉aoc2023.day1꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/day1.clj:39:19).
+; Can't call nil, form: (nil nil)
+clj꞉aoc2023.day1꞉> 
+(clojure.core/seq
+ (clojure.core/concat (clojure.core/list 'nil) (clojure.core/list 'nil))
+ clojure.core/seq
+ (clojure.core/concat
+  (clojure.core/list
+   (clojure.core/apply clojure.core/vector (clojure.core/seq (clojure.core/concat (clojure.core/list 1)))))
+  (clojure.core/list 'nil))
+ clojure.core/seq
+ (clojure.core/concat
+  (clojure.core/list
+   (clojure.core/apply clojure.core/vector (clojure.core/seq (clojure.core/concat (clojure.core/list 2)))))
+  (clojure.core/list 'nil)))
+clj꞉aoc2023.day1꞉> 
+; Execution error (ClassCastException) at aoc2023.day1/eval8725 (form-init3416622422887681499.clj:39).
+; clojure.lang.LazySeq cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.day1꞉> 
+([1] [2])
+clj꞉aoc2023.day1꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:60405 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉> 
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/input
+clj꞉aoc2023.day2꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/aoc2023/day2.clj:1:1).
+; (:require [clojure.string :as s]) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉aoc2023.day2꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/aoc2023/day2.clj:1:1).
+; ((require [clojure.string :as s])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉aoc2023.day2꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+["Game 1: 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"
+ "Game 2: 9 green, 1 blue, 12 red; 1 blue, 18 green, 8 red; 2 blue, 6 green, 13 red; 3 blue, 13 red, 7 green; 5 blue, 4 red, 4 green; 6 blue, 7 green, 4 red"
+ "Game 3: 5 blue, 9 red, 14 green; 10 green, 3 blue; 11 red, 2 blue, 8 green; 5 red, 2 blue; 5 blue, 7 green, 8 red"
+ "Game 4: 2 red, 3 blue, 2 green; 17 green, 6 blue, 1 red; 3 blue, 5 green, 1 red; 4 red, 1 blue, 16 green; 5 red, 4 blue, 13 green; 14 green, 5 blue, 6 red"
+ "Game 5: 3 red, 17 green, 10 blue; 9 blue, 5 green; 14 green, 9 blue, 11 red"
+ "Game 6: 4 green, 18 blue, 3 red; 6 green, 8 blue, 9 red; 4 green, 9 blue, 7 red; 9 red, 1 green, 12 blue"
+ "Game 7: 1 blue, 14 green; 1 red, 4 blue, 15 green; 3 blue, 6 green; 3 blue, 2 green, 1 red; 1 red, 3 green, 1 blue"
+ "Game 8: 10 red, 3 blue, 3 green; 5 blue, 7 red, 3 green; 3 red, 3 green, 11 blue; 1 red, 7 green, 10 blue; 13 blue, 5 green, 5 red; 1 green, 17 blue, 3 red"
+ "Game 9: 1 blue, 6 green; 7 green, 2 red; 3 red, 2 green; 1 blue, 4 red, 3 green; 7 green, 1 blue, 1 red"
+ "Game 10: 14 green, 6 blue, 1 red; 8 green, 5 red, 1 blue; 8 green, 5 blue, 5 red; 2 green, 3 blue, 5 red"
+ "Game 11: 1 blue, 2 green; 1 blue, 1 green, 7 red; 1 blue, 4 green, 7 red; 2 red, 2 green, 1 blue"
+ "Game 12: 5 blue, 12 green, 12 red; 11 green, 3 red; 14 green, 3 blue, 18 red"
+ "Game 13: 2 green, 6 red; 6 red, 5 blue; 7 red, 3 blue, 8 green; 7 red, 8 green; 3 blue, 2 green, 3 red; 1 blue, 8 red, 6 green"
+ "Game 14: 18 green, 6 blue, 5 red; 5 blue, 15 red, 19 green; 7 green, 11 blue, 20 red; 5 red, 18 green, 7 blue"
+ "Game 15: 3 red, 16 green, 1 blue; 11 green, 6 red, 1 blue; 12 green, 2 red; 17 green, 1 blue, 14 red"
+ "Game 16: 3 red, 2 green, 5 blue; 1 green, 6 blue, 1 red; 1 green, 2 blue, 3 red; 1 blue, 1 red; 5 blue, 1 green, 2 red"
+ "Game 17: 3 blue, 6 red; 1 blue, 2 red; 1 blue, 1 green, 7 red; 1 green, 7 red, 2 blue; 7 red, 1 blue; 1 green, 8 red, 1 blue"
+ "Game 18: 6 green, 10 red; 6 red, 7 green; 10 red, 11 green; 10 red, 2 blue, 5 green"
+ "Game 19: 2 blue; 1 blue, 4 green, 6 red; 7 green, 6 red, 2 blue; 2 blue, 5 red, 4 green; 1 green, 10 red"
+ "Game 20: 6 red, 5 green, 10 blue; 5 blue, 5 green, 9 red; 7 blue, 3 green, 3 red; 9 blue, 12 red, 1 green"
+ "Game 21: 4 red, 18 blue, 14 green; 3 green, 14 blue, 5 red; 5 green, 12 blue; 1 blue, 2 red, 1 green; 5 red, 11 green, 7 blue; 17 green, 4 red, 15 blue"
+ "Game 22: 1 blue, 14 green, 4 red; 7 green, 10 red; 9 green, 1 blue, 9 red; 1 blue, 8 green, 5 red"
+ "Game 23: 4 blue, 5 green, 2 red; 6 blue, 8 red, 4 green; 4 blue, 17 red, 14 green"
+ "Game 24: 3 green, 8 blue; 3 blue, 5 green, 13 red; 17 red, 4 green"
+ "Game 25: 19 red, 9 blue, 1 green; 3 green, 18 red, 6 blue; 1 green, 7 red, 7 blue; 8 blue, 1 red"
+ "Game 26: 10 green, 12 blue, 2 red; 9 red; 10 blue, 12 green, 9 red"
+ "Game 27: 2 blue, 8 green, 6 red; 5 green, 9 red; 4 red, 11 green"
+ "Game 28: 10 blue, 20 red; 14 blue, 3 green, 2 red; 9 red, 12 blue, 1 green"
+ "Game 29: 4 red, 1 blue, 2 green; 1 green, 6 red, 1 blue; 15 red"
+ "Game 30: 1 red, 13 blue, 6 green; 3 blue, 4 green; 19 blue, 11 green; 1 red, 11 green, 14 blue"
+ "Game 31: 10 red, 12 green; 12 green, 10 red; 2 blue, 15 red, 12 green; 2 green, 2 blue, 15 red; 9 green, 5 red, 2 blue"
+ "Game 32: 5 blue, 5 green, 8 red; 5 green, 6 red; 5 blue, 8 red, 4 green; 5 green, 3 blue, 6 red"
+ "Game 33: 1 red, 9 green, 5 blue; 17 green, 4 blue; 3 green, 2 blue; 10 green, 2 blue; 1 blue, 4 green; 2 green, 9 blue"
+ "Game 34: 11 blue, 11 red, 9 green; 13 red, 3 blue, 5 green; 9 green, 12 blue, 5 red; 13 red, 8 blue, 5 green"
+ "Game 35: 1 green, 3 red, 7 blue; 1 red, 3 green, 9 blue; 1 blue, 2 green, 1 red; 11 blue, 5 red, 6 green"
+ "Game 36: 4 blue, 12 green, 16 red; 7 blue, 11 green; 8 green, 5 blue, 1 red; 14 green, 3 red"
+ "Game 37: 13 red, 5 blue, 9 green; 1 red, 10 blue, 14 green; 1 green, 2 blue, 10 red; 13 red, 10 blue; 1 blue, 8 green"
+ "Game 38: 3 red, 4 blue, 8 green; 1 red, 11 blue, 4 green; 13 blue, 8 green; 3 red, 3 green, 10 blue; 1 red, 1 blue, 1 green; 1 green, 2 red, 10 blue"
+ "Game 39: 9 red, 7 blue, 1 green; 15 red, 4 green, 1 blue; 2 green, 8 blue, 7 red; 6 blue, 11 red; 12 red, 2 blue, 7 green"
+ "Game 40: 13 red, 3 green, 1 blue; 3 green, 10 red; 16 red"
+ "Game 41: 1 blue, 3 red; 7 blue, 5 red, 3 green; 4 red, 3 blue, 2 green; 2 blue, 5 red, 1 green; 3 green, 4 red, 3 blue; 5 blue, 2 red"
+ "Game 42: 1 red, 4 green; 11 red, 4 green; 13 red; 1 blue, 10 red; 1 blue, 2 red, 4 green"
+ "Game 43: 11 green, 13 red, 1 blue; 11 green, 9 red, 2 blue; 7 green; 13 green, 15 red; 1 blue, 14 green"
+ "Game 44: 5 green, 14 blue, 15 red; 13 blue, 15 green; 9 green, 15 red, 6 blue"
+ "Game 45: 16 red, 8 blue; 1 green, 4 blue, 6 red; 4 blue, 8 red; 12 red, 3 blue, 3 green; 2 green, 4 red, 4 blue; 2 green, 8 blue, 10 red"
+ "Game 46: 12 blue, 3 green, 12 red; 9 red, 9 blue; 3 green, 12 red; 10 red, 6 green; 2 red, 7 blue"
+ "Game 47: 9 green, 6 red; 1 blue, 7 red, 10 green; 1 green, 2 red; 1 red, 3 green"
+ "Game 48: 9 blue, 5 green, 13 red; 14 green, 4 red; 15 red, 9 green, 1 blue; 4 blue, 6 red, 13 green; 9 green, 8 blue, 8 red"
+ "Game 49: 5 blue, 3 red; 1 green, 2 red, 5 blue; 1 green, 7 blue; 3 green"
+ "Game 50: 8 red, 6 green; 10 blue, 4 green, 6 red; 8 green, 11 blue, 9 red"
+ ...]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/input
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8096 (form-init6335900738974597042.clj:13).
+; Wrong number of args (1) passed to: clojure.string/split
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8098 (form-init6335900738974597042.clj:13).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.day2꞉> 
+["Game 1" " 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-id
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-id
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-id
+clj꞉aoc2023.day2꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:60564 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉> 
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+#'aoc2023.day2/input
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/test-row
+clj꞉aoc2023.day2꞉> 
+"Game 1: 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"
+clj꞉aoc2023.day2꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/day2.clj:16:3).
+; Can't call nil, form: (nil (map s/triml ((fn* [p1__8091#] (s/split p1__8091# ",")) ())))
+clj꞉aoc2023.day2꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/day2.clj:16:3).
+; Can't call nil, form: (nil (map s/triml ((fn* [p1__8121#] (s/split p1__8121# ",")) (get-results test-row))))
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:16:8).
+; Unable to resolve symbol: get-results in this context
+clj꞉aoc2023.day2꞉> 
+; Syntax error (IllegalArgumentException) compiling at (src/aoc2023/day2.clj:23:3).
+; Can't call nil, form: (nil ((fn* [p1__8127#] (s/split p1__8127# ";")) game-row))
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-results
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:24).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/cube-counts
+clj꞉aoc2023.day2꞉> 
+#function[aoc2023.day2/cube-counts]
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:24).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-results
+clj꞉aoc2023.day2꞉> 
+#function[clojure.string/triml]
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:20).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:20).
+; java.base/java.lang.String cannot be cast to java.base/java.util.regex.Pattern
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-results
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8191$fn (form-init5291790890357756372.clj:17).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+["Game 1: 7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:23).
+; clojure.lang.StringSeq cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/get-results$fn (form-init5291790890357756372.clj:23).
+; clojure.lang.StringSeq cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+["Game 1: 7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+; Syntax error reading source at (REPL:39:45).
+; Illegal repetition near index 5
+; ^Game {\d}+: 
+;      ^
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+"G"
+clj꞉aoc2023.day2꞉> 
+\G
+clj꞉aoc2023.day2꞉> 
+"Game 1: 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"
+clj꞉aoc2023.day2꞉> 
+"7 blue, 6 green, 3 red"
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+"7 blue, 6 green, 3 red"
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red" (" 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue")]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue 1 red, 5 green, 8 blue 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue 1 red, 5 green, 8 blue 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/temp
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/cube-counts$fn (form-init5291790890357756372.clj:17).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8235 (form-init5291790890357756372.clj:42).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+(["7 blue" " 6 green" " 3 red"] [" 3 red" " 5 green" " 1 blue 1 red" " 5 green" " 8 blue 3 red" " 1 green" " 5 blue"])
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8251$fn (form-init5291790890357756372.clj:43).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+(["7 blue" " 6 green" " 3 red"] [" 3 red" " 5 green" " 1 blue 1 red" " 5 green" " 8 blue 3 red" " 1 green" " 5 blue"])
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/games
+clj꞉aoc2023.day2꞉> 
+(["7 blue" " 6 green" " 3 red"] [" 3 red" " 5 green" " 1 blue 1 red" " 5 green" " 8 blue 3 red" " 1 green" " 5 blue"])
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/temp
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:1:7977).
+; Unable to resolve symbol: temo in this context
+clj꞉aoc2023.day2꞉> 
+("7 blue, 6 green, 3 red"
+ \space
+ \3
+ \space
+ \r
+ \e
+ \d
+ \,
+ \space
+ \5
+ \space
+ \g
+ \r
+ \e
+ \e
+ \n
+ \,
+ \space
+ \1
+ \space
+ \b
+ \l
+ \u
+ \e
+ \space
+ \1
+ \space
+ \r
+ \e
+ \d
+ \,
+ \space
+ \5
+ \space
+ \g
+ \r
+ \e
+ \e
+ \n
+ \,
+ \space
+ \8
+ \space
+ \b
+ \l
+ \u
+ \e
+ \space
+ \3
+ \space
+ ...)
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/temp
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue 1 red, 5 green, 8 blue 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/games
+clj꞉aoc2023.day2꞉> 
+(["7 blue" " 6 green" " 3 red"] [" 3 red" " 5 green" " 1 blue 1 red" " 5 green" " 8 blue 3 red" " 1 green" " 5 blue"])
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/temp
+clj꞉aoc2023.day2꞉> 
+["7 blue, 6 green, 3 red" [" 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue"]]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/temp
+clj꞉aoc2023.day2꞉> 
+("7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue")
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/games
+clj꞉aoc2023.day2꞉> 
+(["7 blue" " 6 green" " 3 red"]
+ [" 3 red" " 5 green" " 1 blue"]
+ [" 1 red" " 5 green" " 8 blue"]
+ [" 3 red" " 1 green" " 5 blue"])
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->kw
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game->map
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/games
+clj꞉aoc2023.day2꞉> 
+(({:blue 7} {:green 6} {:red 3})
+ ({:red 3} {:green 5} {:blue 1})
+ ({:red 1} {:green 5} {:blue 8})
+ ({:red 3} {:green 1} {:blue 5}))
+clj꞉aoc2023.day2꞉> 
+({:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5})
+clj꞉aoc2023.day2꞉> 
+{:blue 5, :green 1, :red 3}
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/parse-game-rounds
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+("7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue")
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-map
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8347 (form-init5291790890357756372.clj:64).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/parse-game-rounds
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-map
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8356 (form-init5291790890357756372.clj:64).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/my-game-map
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8360 (form-init5291790890357756372.clj:65).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game-map
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game->map
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->max-occurrence
+clj꞉aoc2023.day2꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+7
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8367 (form-init5291790890357756372.clj:73).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉aoc2023.day2꞉> 
+{:blue 7}
+clj꞉aoc2023.day2꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day2/eval8373 (form-init5291790890357756372.clj:73).
+; No matching clause: (:blue)
+clj꞉aoc2023.day2꞉> 
+(:blue)
+clj꞉aoc2023.day2꞉> 
+:blue
+clj꞉aoc2023.day2꞉> 
+:blue
+clj꞉aoc2023.day2꞉> 
+"aha"
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:73:2).
+; Can't take value of a macro: #'clojure.core/condp
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8386 (form-init5291790890357756372.clj:73).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8390 (form-init5291790890357756372.clj:73).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+; Execution error (ArityException) at aoc2023.day2/eval8394 (form-init5291790890357756372.clj:75).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉aoc2023.day2꞉> 
+"aha"
+clj꞉aoc2023.day2꞉> 
+true
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-count?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-count?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+(true true true true true true true true true true true true)
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:83:3).
+; Can't take value of a macro: #'clojure.core/or
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:83:3).
+; Can't take value of a macro: #'clojure.core/or
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+true
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-results
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-rounds
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->kw
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->max-occurrence
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game->map
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/parse-game-rounds
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-count?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+true
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:80:5).
+; Unable to resolve symbol: game- in this context
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/valid-game? (form-init5291790890357756372.clj:76).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+true
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/valid-game? (form-init5291790890357756372.clj:72).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+clojure.string/split (string.clj:219)
+aoc2023.day2/valid-game? (form-init5291790890357756372.clj:72)
+aoc2023.day2/valid-game? (form-init5291790890357756372.clj:71)
+aoc2023.day2/eval8457 (form-init5291790890357756372.clj:82)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8459 (form-init5291790890357756372.clj:82).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+\G
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/eval8463 (form-init5291790890357756372.clj:83).
+; java.base/java.lang.String cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.day2꞉> 
+["Game 1" " 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/valid-game? (form-init5291790890357756372.clj:72).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/valid-game? (form-init5291790890357756372.clj:72).
+; java.base/java.lang.Character cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+["Game 1" " 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+; Execution error (ClassCastException) at aoc2023.day2/game->map (form-init5291790890357756372.clj:40).
+; clojure.lang.PersistentVector cannot be cast to java.base/java.lang.CharSequence
+clj꞉aoc2023.day2꞉> 
+"Game 1"
+clj꞉aoc2023.day2꞉> 
+"Game 1: 7 blue, 6 green, 3 red; 3 red, 5 green, 1 blue; 1 red, 5 green, 8 blue; 3 red, 1 green, 5 blue"
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:82:1).
+; Unable to resolve symbol: cleaned-game-row in this context
+clj꞉aoc2023.day2꞉> 
+("7 blue, 6 green, 3 red" " 3 red, 5 green, 1 blue" " 1 red, 5 green, 8 blue" " 3 red, 1 green, 5 blue")
+clj꞉aoc2023.day2꞉> 
+[{:blue 7}
+ {:green 6}
+ {:red 3}
+ {:red 3}
+ {:green 5}
+ {:blue 1}
+ {:red 1}
+ {:green 5}
+ {:blue 8}
+ {:red 3}
+ {:green 1}
+ {:blue 5}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+"Game 1"
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-id
+clj꞉aoc2023.day2꞉> 
+"Game 1"
+clj꞉aoc2023.day2꞉> 
+1
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+1
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+1
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt1
+clj꞉aoc2023.day2꞉> 
+5050
+clj꞉aoc2023.day2꞉> 
