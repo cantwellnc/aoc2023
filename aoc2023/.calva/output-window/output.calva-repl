@@ -3316,3 +3316,118 @@ clj꞉aoc2023.day2꞉> 
 ; Execution error (IllegalArgumentException) at aoc2023.day2/eval8137 (form-init2490000644721768149.clj:27).
 ; Don't know how to create ISeq from: java.lang.Long
 clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/required-cubes
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:97:1).
+; Unable to resolve symbol: row in this context
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/row
+clj꞉aoc2023.day2꞉> 
+[{:red 4} {:blue 2} {:green 2} {:red 8} {:blue 10} {:green 1} {:red 15} {:blue 8}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+; Execution error (NullPointerException) at aoc2023.day2/reduce-by-color$fn (form-init2490000644721768149.clj:101).
+; null
+clj꞉aoc2023.day2꞉> 
+clojure.lang.Numbers/ops (Numbers.java:1095)
+clojure.lang.Numbers/add (Numbers.java:155)
+aoc2023.day2/reduce-by-color (form-init2490000644721768149.clj:101)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
+clojure.core/reduce (core.clj:6885)
+clojure.core/reduce (core.clj:6868)
+aoc2023.day2/reduce-by-color (form-init2490000644721768149.clj:101)
+aoc2023.day2/reduce-by-color (form-init2490000644721768149.clj:99)
+aoc2023.day2/eval8146 (form-init2490000644721768149.clj:103)
+clojure.lang.Compiler/eval (Compiler.java:7194)
+clojure.core/eval (core.clj:3215)
+clojure.core/eval (core.clj:3211)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:667)
+clojure.core/with-bindings* (core.clj:1990)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:218)
+nrepl.middleware.session/session-exec (session.clj:217)
+java.lang.Thread/run (Thread.java:844)
+clj꞉aoc2023.day2꞉> 
+[{:red 4} {:blue 2} {:green 2} {:red 8} {:blue 10} {:green 1} {:red 15} {:blue 8}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+0
+clj꞉aoc2023.day2꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+4
+clj꞉aoc2023.day2꞉> 
+4
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+0
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+; Execution error (NullPointerException) at aoc2023.day2/reduce-by-color$fn (form-init2490000644721768149.clj:102).
+; null
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+27
+clj꞉aoc2023.day2꞉> 
+4
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/reduce-by-color
+clj꞉aoc2023.day2꞉> 
+15
+clj꞉aoc2023.day2꞉> 
+[{:red 4} {:blue 2} {:green 2} {:red 8} {:blue 10} {:green 1} {:red 15} {:blue 8}]
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-count-by-color
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-count-by-color
+clj꞉aoc2023.day2꞉> 
+15
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:109:1).
+; Unable to resolve symbol: color in this context
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-count-by-color
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:109:1).
+; Unable to resolve symbol: color in this context
+clj꞉aoc2023.day2꞉> 
+15
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-colors
+clj꞉aoc2023.day2꞉> 
+(15 10 2)
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/power
+clj꞉aoc2023.day2꞉> 
+300
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-colors
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-count-by-color
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/max-colors
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/power
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/required-cubes
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/power-sum-of-required-cubes
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt2
+clj꞉aoc2023.day2꞉> 
+66363
+clj꞉aoc2023.day2꞉> 

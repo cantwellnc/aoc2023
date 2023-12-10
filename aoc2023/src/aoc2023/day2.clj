@@ -81,3 +81,30 @@
 (def day2-pt1 (apply + ( map valid-game? input)))
 
 day2-pt1
+
+
+;; Part 2: the least # of cubes of each color that would have made each game possible
+
+(defn max-count-by-color
+  [row color]
+  (reduce (fn [init item]
+            (if (color item) (max init (color item)) init))
+          0 row))
+
+(defn max-colors [row] 
+  (map (partial max-count-by-color row) [:red :blue :green])
+  )
+
+(defn power [max-colors-for-row]
+  (apply * max-colors-for-row)
+  )
+
+(defn power-sum-of-required-cubes
+  [game-row]
+  (-> game-row
+      clean-game-row
+      parse-game-rounds
+      max-colors
+      power))
+
+(def day2-pt2 (map power-sum))
