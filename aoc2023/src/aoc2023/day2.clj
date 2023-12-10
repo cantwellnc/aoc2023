@@ -3,8 +3,7 @@
 
 (def input (-> "resources/day2_input.txt"
                slurp
-               s/split-lines)
-  )
+               s/split-lines))
 
 (def color->kw {"red" :red "blue" :blue "green" :green})
 
@@ -107,4 +106,6 @@ day2-pt1
       max-colors
       power))
 
-(def day2-pt2 (map power-sum))
+(def day2-pt2 (apply + (map power-sum-of-required-cubes input)))
+
+day2-pt2
