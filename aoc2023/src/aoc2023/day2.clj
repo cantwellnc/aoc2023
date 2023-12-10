@@ -1,26 +1,16 @@
 (ns aoc2023.day2
   (:require [clojure.string :as s])) 
 
-
-;;12 red cubes, 13 green cubes, and 14 blue cubes
-
 (def input (-> "resources/day2_input.txt"
                slurp
                s/split-lines)
   )
 
-;; testing
-(def test-row (first input))
-test-row
-(def temp ( clean-game-row test-row))
-(def game-map (parse-game-rounds temp) )
-
-
-
 (def color->kw {"red" :red "blue" :blue "green" :green})
 
 ;; Encoding valid game constraints
-;;12 red cubes, 13 green cubes, and 14 blue cubes
+;; 12 red cubes, 13 green cubes, and 14 blue cubes are the # of 
+;; cubes in the bag. Counts for a color cannot exceed this in a round.
 (def color->max-occurrence {:red 12 :green 13 :blue 14})
 
 (defn get-rounds [game-row]
@@ -28,7 +18,8 @@ test-row
   )
 
 (defn clean-game-row 
-  "returns a list of rounds (each round is a string) for a given game row"
+  "returns a seq of rounds (each round is a string) for a given game row. 
+   ex: Game 84: 4 red, 2 blue; 1 green => ('4 red 2 blue' ' 1 green')"
   [game-row]
   (let [results (get-rounds game-row)]
     (cons (s/replace (first results) #"^Game \d+: " "") (into [] (rest results)))))
@@ -62,30 +53,31 @@ test-row
      :red (<= (color-count :red) (color->max-occurrence :red))))
 
 
-(defn is-game-possible? [game-map]
-  (reduce #(or %1 %2) false ( map valid-count? game-map)) 
+(defn is-game-possible? 
+  "do an and-scan over the bools prooduced 
+   by `valid-count?`. Only true if all cube color counts are 
+   valid."
+  [game-map] 
+  (reduce #(and %1 %2) true ( map valid-count? game-map)) 
   )
-
-(is-game-possible? game-map)
 
 (defn get-id [game-row]
   (parse-long (second (s/split (first (s/split game-row #":")) #" "))))
 
 
-(defn valid-game? [game-row]
+(defn valid-game? 
+  "determines if a game is valid or not."
+  [game-row]
   (let [id (get-id game-row)
         possible? (-> game-row
                       clean-game-row
                       parse-game-rounds
                       is-game-possible?)]
-    (when possible? id) 
+    (if possible? id 0) 
     )
   )
 
-( parse-game-rounds (clean-game-row test-row))
 
-(first (s/split test-row #":"))
+(def day2-pt1 (apply + ( map valid-game? input)))
 
-(valid-game? test-row)
-
-(def day2-pt1 )
+day2-pt1

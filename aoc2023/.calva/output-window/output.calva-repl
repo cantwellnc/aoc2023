@@ -3219,3 +3219,100 @@ clj꞉aoc2023.day2꞉> 
 clj꞉aoc2023.day2꞉> 
 5050
 clj꞉aoc2023.day2꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/dcant/programs/aoc2023/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:61152 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉> 
+clj꞉aoc2023.core꞉> 
+; Jack-in done.
+clj꞉aoc2023.core꞉> 
+nil
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/input
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->kw
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/color->max-occurrence
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-rounds
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/clean-game-row
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/game->map
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/parse-game-rounds
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-count?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+; Syntax error compiling at (src/aoc2023/day2.clj:74:1).
+; Unable to resolve symbol: game-map in this context
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-id
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt1
+clj꞉aoc2023.day2꞉> 
+5050
+clj꞉aoc2023.day2꞉> 
+92
+clj꞉aoc2023.day2꞉> 
+92
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-id
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+0
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt1
+clj꞉aoc2023.day2꞉> 
+0
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/is-game-possible?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/get-id
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+0
+clj꞉aoc2023.day2꞉> 
+92
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt1
+clj꞉aoc2023.day2꞉> 
+2369
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/valid-game?
+clj꞉aoc2023.day2꞉> 
+#'aoc2023.day2/day2-pt1
+clj꞉aoc2023.day2꞉> 
+2369
+clj꞉aoc2023.day2꞉> 
+(3)
+clj꞉aoc2023.day2꞉> 
+("4 red, 2 blue" " 1 green")
+clj꞉aoc2023.day2꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day2/eval8137 (form-init2490000644721768149.clj:27).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉aoc2023.day2꞉> 
