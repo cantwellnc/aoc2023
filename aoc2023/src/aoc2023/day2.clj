@@ -107,5 +107,3 @@ day2-pt1
       power))
 
 (def day2-pt2 (apply + (map power-sum-of-required-cubes input)))
-
-day2-pt2
